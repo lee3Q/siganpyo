@@ -21,8 +21,8 @@ export interface ConfigActions {
 const defaultConfig: UserConfig = {
   dayStartHour: 6,
   dayEndHour: 24,
-  repoOwner: '',
-  repoName: '',
+  repoOwner: 'lee3Q',
+  repoName: 'siganpyo',
   branch: 'main',
   theme: 'system',
 }
