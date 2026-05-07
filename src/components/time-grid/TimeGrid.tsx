@@ -19,7 +19,7 @@
  *   - Empty state overlay (when no blocks)
  */
 
-import { useMemo } from 'react'
+import { useMemo, useCallback } from 'react'
 import { useGridDimensions, HEADER_HEIGHT_PX } from '@/hooks/useGridDimensions'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore } from '@/stores/ui-store'
@@ -56,6 +56,7 @@ export function TimeGrid() {
   const getMergedBlocks = useScheduleStore((s) => s.getMergedBlocks)
   const moveBlock = useScheduleStore((s) => s.moveBlock)
   const resizeBlock = useScheduleStore((s) => s.resizeBlock)
+  const navigateToDate = useScheduleStore((s) => s.navigateToDate)
   const closeCreateBlock = useUIStore((s) => s.closeCreateBlock)
   const isOffline = useUIStore((s) => s.isOffline)
 
@@ -86,10 +87,19 @@ export function TimeGrid() {
   const emptyMessage = isLoading
     ? '데이터를 불러오는 중...'
     : hasRemoteData
-      ? '오늘의 일정이 없습니다. 빈 슬롯을 클릭하여 새 블록을 만드세요.'
+      ? '일정이 없습니다. 빈 슬롯을 클릭하여 새 블록을 만드세요.'
       : error
         ? '데이터를 불러올 수 없습니다. 빈 슬롯을 클릭하여 새 블록을 만드세요.'
-        : '오늘의 계획을 세워보세요. 빈 슬롯을 클릭하여 새 블록을 만들 수 있습니다.'
+        : '계획을 세워보세요. 빈 슬롯을 클릭하여 새 블록을 만들 수 있습니다.'
+
+  const shiftDate = useCallback((days: number) => {
+    const d = new Date(currentDate + 'T00:00:00')
+    d.setDate(d.getDate() + days)
+    const y = d.getFullYear()
+    const m = String(d.getMonth() + 1).padStart(2, '0')
+    const day = String(d.getDate()).padStart(2, '0')
+    navigateToDate(`${y}-${m}-${day}`)
+  }, [currentDate, navigateToDate])
 
   return (
     <div className="h-full flex flex-col bg-surface">
@@ -98,9 +108,25 @@ export function TimeGrid() {
         className="flex items-center justify-between px-4 border-b border-border flex-shrink-0"
         style={{ height: HEADER_HEIGHT_PX }}
       >
-        <h1 className="text-base font-semibold text-text-primary">
-          {formatDateKorean(currentDate)}
-        </h1>
+        <div className="flex items-center gap-1">
+          <button
+            className="w-7 h-7 flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm"
+            onClick={() => shiftDate(-1)}
+            aria-label="이전 날짜"
+          >
+            &lt;
+          </button>
+          <h1 className="text-base font-semibold text-text-primary">
+            {formatDateKorean(currentDate)}
+          </h1>
+          <button
+            className="w-7 h-7 flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm"
+            onClick={() => shiftDate(1)}
+            aria-label="다음 날짜"
+          >
+            &gt;
+          </button>
+        </div>
         <div className="flex items-center gap-2">
           {isLoading && (
             <span className="text-xs text-text-tertiary animate-pulse">
