@@ -61,7 +61,7 @@ export function TimeGrid() {
   const isOffline = useUIStore((s) => s.isOffline)
 
   // Merge remote + local data → sorted TimeBlock[] for rendering
-  const blocks = useMemo(() => getMergedBlocks(), [getMergedBlocks])
+  const blocks = useMemo(() => getMergedBlocks(), [getMergedBlocks, remoteSchedule])
 
   // Generate slot data: [startHour:00, startHour:30, startHour+1:00, ...]
   const slots = useMemo(() => {
