@@ -236,7 +236,7 @@ export function TimeGrid() {
       </div>
 
       {/* Mobile edit sheet */}
-      {!isDesktop && <MobileEditSheet grid={grid} />}
+      {!isDesktop && <MobileEditSheet />}
     </div>
   )
 }

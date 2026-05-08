@@ -12,7 +12,6 @@ import { Textarea } from '@/components/ui/textarea'
 import { Checkbox } from '@/components/ui/checkbox'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore } from '@/stores/ui-store'
-import type { GridDimensions } from '@/hooks/useGridDimensions'
 import type { BlockColor, BlockStatus } from '@/types'
 
 // ---------------------------------------------------------------------------
@@ -57,7 +56,7 @@ function timeDiff(start: string, end: string): number {
 // Component
 // ---------------------------------------------------------------------------
 
-export function MobileEditSheet({ grid }: { grid: GridDimensions }) {
+export function MobileEditSheet() {
   const isDetailPanelOpen = useUIStore((s) => s.isDetailPanelOpen)
   const focusedBlockId = useUIStore((s) => s.focusedBlockId)
   const closeDetailPanel = useUIStore((s) => s.closeDetailPanel)
