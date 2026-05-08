@@ -209,13 +209,6 @@ function isValidDaySchedule(data: unknown): data is DaySchedule {
 }
 
 // ---------------------------------------------------------------------------
-// Active request deduplication
-// ---------------------------------------------------------------------------
-
-/** Track in-flight requests to avoid duplicate fetches for the same date+config */
-const activeRequests = new Map<string, Promise<ScheduleFetchResult>>()
-
-// ---------------------------------------------------------------------------
 // Main fetch function
 // ---------------------------------------------------------------------------
 
@@ -261,22 +254,8 @@ export async function fetchSchedule(
     }
   }
 
-  // ---- Deduplicate in-flight requests ----
-  const existingRequest = activeRequests.get(key)
-  if (existingRequest && !options?.forceRefresh) {
-    return existingRequest
-  }
-
   // ---- L3: Fetch from GitHub ----
-  const fetchPromise = doNetworkFetch(date, config, key, options)
-  activeRequests.set(key, fetchPromise)
-
-  try {
-    const result = await fetchPromise
-    return result
-  } finally {
-    activeRequests.delete(key)
-  }
+  return doNetworkFetch(date, config, key, options)
 }
 
 /**

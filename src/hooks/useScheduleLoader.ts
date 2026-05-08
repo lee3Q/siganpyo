@@ -53,6 +53,7 @@ export function useScheduleLoader(): {
   const lastFetchedDateRef = useRef<string | null>(null)
   const lastFetchTimeRef = useRef<number>(0)
   const abortRef = useRef<AbortController | null>(null)
+  const isInitialMountRef = useRef(true)
 
   /** Build config from store values, with hardcoded fallback */
   const getConfig = useCallback((): RepoConfig => {
@@ -150,8 +151,11 @@ export function useScheduleLoader(): {
 
   // ---- Re-fetch when repo config changes ----
   useEffect(() => {
+    if (isInitialMountRef.current) {
+      isInitialMountRef.current = false
+      return
+    }
     if (repoOwner && repoName) {
-      // Invalidate cache since config changed
       invalidateScheduleCache(currentDate)
       lastFetchedDateRef.current = null
       doFetch(currentDate)
