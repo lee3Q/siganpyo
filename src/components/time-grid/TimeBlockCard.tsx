@@ -142,7 +142,8 @@ export function TimeBlockCard({ block, grid }: TimeBlockCardProps) {
   return (
     <div
       className={`
-        absolute left-14 right-2 rounded-md border-l-[3px] px-2 py-0.5
+        absolute left-14 md:left-16 right-2 rounded-md border-l-[3px]
+        px-1.5 py-0.5 md:px-2.5 md:py-1
         cursor-pointer transition-shadow select-none
         ${colors.bg} ${colors.border.replace('border-', 'border-l-')}
         ${isFocused ? 'ring-2 ring-primary shadow-md z-10' : 'hover:shadow-sm z-0'}
@@ -155,18 +156,18 @@ export function TimeBlockCard({ block, grid }: TimeBlockCardProps) {
       aria-roledescription="시간 블록"
       aria-label={`${block.title}, ${block.startTime} - ${block.endTime}, ${STATUS_LABEL[block.status]}`}
     >
-      <div className="flex items-center gap-1.5 min-h-0 overflow-hidden">
+      <div className="flex items-center gap-1 md:gap-1.5 min-h-0 overflow-hidden">
         {/* Color dot */}
-        <div className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${colors.dot}`} />
+        <div className={`w-1.5 h-1.5 md:w-2 md:h-2 rounded-full flex-shrink-0 ${colors.dot}`} />
 
         {/* Title */}
-        <span className={`text-xs font-medium truncate ${colors.text}`}>
+        <span className={`text-[11px] md:text-sm font-medium truncate ${colors.text}`}>
           {block.title}
         </span>
 
         {/* Status badge — only if not compact */}
         {!isCompact && (
-          <span className={`text-[10px] px-1 py-0 rounded-full flex-shrink-0 ${STATUS_COLOR[block.status]}`}>
+          <span className={`text-[10px] md:text-xs px-1 py-0 rounded-full flex-shrink-0 ${STATUS_COLOR[block.status]}`}>
             {STATUS_LABEL[block.status]}
           </span>
         )}
@@ -174,7 +175,7 @@ export function TimeBlockCard({ block, grid }: TimeBlockCardProps) {
 
       {/* Time range — only if enough space */}
       {!isCompact && (
-        <div className="text-[10px] text-text-tertiary mt-0.5 truncate">
+        <div className="text-[10px] md:text-xs text-text-tertiary mt-0.5 md:mt-1 truncate">
           {block.startTime} - {block.endTime}
           {block.category && (
             <span className="ml-1">· {block.category}</span>

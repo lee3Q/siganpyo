@@ -42,14 +42,21 @@ export interface GridDimensions {
 // Helpers
 // ---------------------------------------------------------------------------
 
+const DESKTOP_BREAKPOINT = 768
+const MOBILE_MIN_SLOT_HEIGHT = 8
+const DESKTOP_MIN_SLOT_HEIGHT = 30
+
 function computeFromViewportHeight(
   viewportHeight: number,
+  viewportWidth: number,
   slotCount: number,
   startHour: number,
   endHour: number,
 ): GridDimensions {
+  const isDesktop = viewportWidth >= DESKTOP_BREAKPOINT
   const availableHeight = viewportHeight - HEADER_HEIGHT_PX
-  const slotHeight = Math.max(availableHeight / slotCount, 8) // minimum 8px
+  const minSlotHeight = isDesktop ? DESKTOP_MIN_SLOT_HEIGHT : MOBILE_MIN_SLOT_HEIGHT
+  const slotHeight = Math.max(availableHeight / slotCount, minSlotHeight)
   const hourHeight = slotHeight * 2
   const gridHeight = slotHeight * slotCount
 
@@ -75,10 +82,9 @@ export function useGridDimensions(): GridDimensions {
   const slotCount = (endHour - startHour) * 2 // 30-min slots
 
   const calcDimensions = useCallback(() => {
-    // Try to use dynamic viewport height for mobile browsers (accounts for address bar)
-    // Fall back to window.innerHeight if dvh is not supported
     const viewportHeight = window.innerHeight
-    return computeFromViewportHeight(viewportHeight, slotCount, startHour, endHour)
+    const viewportWidth = window.innerWidth
+    return computeFromViewportHeight(viewportHeight, viewportWidth, slotCount, startHour, endHour)
   }, [slotCount, startHour, endHour])
 
   const [dimensions, setDimensions] = useState<GridDimensions>(calcDimensions)

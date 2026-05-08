@@ -68,9 +68,9 @@ export function TimeSlot({
       aria-label={`${timeString} - 빈 슬롯 (클릭하여 새 블록 생성)`}
     >
       {/* Time label column */}
-      <div className="w-14 flex-shrink-0 flex items-start justify-end pr-2 pt-0.5 select-none">
+      <div className="w-14 md:w-16 flex-shrink-0 flex items-start justify-end pr-1.5 md:pr-2 pt-0.5 select-none">
         {isHourBoundary && (
-          <span className="text-[11px] font-medium text-text-tertiary leading-none">
+          <span className="text-[11px] md:text-xs font-medium text-text-tertiary leading-none">
             {timeLabel}
           </span>
         )}

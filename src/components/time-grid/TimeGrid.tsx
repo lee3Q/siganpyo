@@ -19,7 +19,7 @@
  *   - Empty state overlay (when no blocks)
  */
 
-import { useMemo, useCallback } from 'react'
+import { useMemo, useCallback, useRef } from 'react'
 import { useGridDimensions, HEADER_HEIGHT_PX } from '@/hooks/useGridDimensions'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore } from '@/stores/ui-store'
@@ -28,6 +28,7 @@ import { TimeBlockCard } from './TimeBlockCard'
 import { CurrentTimeIndicator } from './CurrentTimeIndicator'
 import { TimeGridDndContext } from '@/components/dnd/TimeGridDndContext'
 import { SortableTimeBlock } from '@/components/dnd/SortableTimeBlock'
+import { MobileEditSheet } from './MobileEditSheet'
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -59,6 +60,11 @@ export function TimeGrid() {
   const navigateToDate = useScheduleStore((s) => s.navigateToDate)
   const closeCreateBlock = useUIStore((s) => s.closeCreateBlock)
   const isOffline = useUIStore((s) => s.isOffline)
+
+  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768
+
+  // Swipe state for mobile date navigation
+  const touchStartRef = useRef<{ x: number; y: number } | null>(null)
 
   // Merge remote + local data → sorted TimeBlock[] for rendering
   const blocks = useMemo(() => getMergedBlocks(), [getMergedBlocks, remoteSchedule])
@@ -101,6 +107,23 @@ export function TimeGrid() {
     navigateToDate(`${y}-${m}-${day}`)
   }, [currentDate, navigateToDate])
 
+  // Mobile swipe handlers
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    touchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
+  }, [])
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (!touchStartRef.current) return
+    const dx = e.changedTouches[0].clientX - touchStartRef.current.x
+    const dy = e.changedTouches[0].clientY - touchStartRef.current.y
+    touchStartRef.current = null
+
+    // Only horizontal swipe (> 50px) and more horizontal than vertical
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+      shiftDate(dx < 0 ? 1 : -1)
+    }
+  }, [shiftDate])
+
   return (
     <div className="h-full flex flex-col bg-surface">
       {/* Header — uses shared HEADER_HEIGHT_PX constant */}
@@ -110,17 +133,17 @@ export function TimeGrid() {
       >
         <div className="flex items-center gap-1">
           <button
-            className="w-7 h-7 flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm"
+            className={`flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm ${isDesktop ? 'w-7 h-7' : 'w-11 h-11'}`}
             onClick={() => shiftDate(-1)}
             aria-label="이전 날짜"
           >
             &lt;
           </button>
-          <h1 className="text-base font-semibold text-text-primary">
+          <h1 className={`font-semibold text-text-primary ${isDesktop ? 'text-base' : 'text-sm'}`}>
             {formatDateKorean(currentDate)}
           </h1>
           <button
-            className="w-7 h-7 flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm"
+            className={`flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm ${isDesktop ? 'w-7 h-7' : 'w-11 h-11'}`}
             onClick={() => shiftDate(1)}
             aria-label="다음 날짜"
           >
@@ -151,61 +174,69 @@ export function TimeGrid() {
         </div>
       )}
 
-      {/* Grid area — fills remaining viewport space without scrolling */}
+      {/* Grid area — responsive layout */}
       <div
-        className="flex-1 relative overflow-hidden"
+        className={`flex-1 relative ${isDesktop ? 'overflow-y-auto' : 'overflow-hidden'}`}
         onClick={handleGridClick}
+        onTouchStart={!isDesktop ? handleTouchStart : undefined}
+        onTouchEnd={!isDesktop ? handleTouchEnd : undefined}
       >
-        {/* Slot rows (background grid lines + time labels) */}
-        <div className="absolute inset-0">
-          {slots.map((slot, index) => (
-            <TimeSlot
-              key={`${slot.hour}:${slot.minutes}`}
-              hour={slot.hour}
-              minutes={slot.minutes}
-              height={grid.slotHeight}
-              isFirst={index === 0}
-            />
-          ))}
-        </div>
-
-        {/* Time blocks — wrapped in DnD context */}
-        <TimeGridDndContext
-          blockIds={blocks.map((b) => b.id)}
-          gridStartHour={grid.startHour}
-          gridEndHour={grid.endHour}
-          hourHeight={grid.slotHeight * 2}
-          onMoveBlock={(blockId, newStartTime) => moveBlock(blockId, newStartTime)}
-          onResizeBlock={(blockId, newEndTime) => resizeBlock(blockId, newEndTime)}
-        >
-          <div className="absolute inset-0 pointer-events-none">
-            {blocks.map((block) => (
-              <SortableTimeBlock
-                key={block.id}
-                id={block.id}
-                startTime={block.startTime}
-                endTime={block.endTime}
-              >
-                <div data-time-block className="pointer-events-auto">
-                  <TimeBlockCard block={block} grid={grid} />
-                </div>
-              </SortableTimeBlock>
+        {/* Desktop: center column with max-width */}
+        <div className={`mx-auto ${isDesktop ? 'max-w-xl' : ''}`} style={{ height: isDesktop ? grid.gridHeight : undefined }}>
+          {/* Slot rows (background grid lines + time labels) */}
+          <div className={`absolute inset-0 ${isDesktop ? 'max-w-xl mx-auto' : ''}`}>
+            {slots.map((slot, index) => (
+              <TimeSlot
+                key={`${slot.hour}:${slot.minutes}`}
+                hour={slot.hour}
+                minutes={slot.minutes}
+                height={grid.slotHeight}
+                isFirst={index === 0}
+              />
             ))}
           </div>
-        </TimeGridDndContext>
 
-        {/* Empty state overlay — only when no blocks */}
-        {isEmpty && (
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
-            <p className="text-sm text-text-tertiary text-center px-8 max-w-xs">
-              {emptyMessage}
-            </p>
-          </div>
-        )}
+          {/* Time blocks — wrapped in DnD context */}
+          <TimeGridDndContext
+            blockIds={blocks.map((b) => b.id)}
+            gridStartHour={grid.startHour}
+            gridEndHour={grid.endHour}
+            hourHeight={grid.slotHeight * 2}
+            onMoveBlock={(blockId, newStartTime) => moveBlock(blockId, newStartTime)}
+            onResizeBlock={(blockId, newEndTime) => resizeBlock(blockId, newEndTime)}
+          >
+            <div className={`absolute inset-0 pointer-events-none ${isDesktop ? 'max-w-xl mx-auto' : ''}`}>
+              {blocks.map((block) => (
+                <SortableTimeBlock
+                  key={block.id}
+                  id={block.id}
+                  startTime={block.startTime}
+                  endTime={block.endTime}
+                >
+                  <div data-time-block className="pointer-events-auto">
+                    <TimeBlockCard block={block} grid={grid} />
+                  </div>
+                </SortableTimeBlock>
+              ))}
+            </div>
+          </TimeGridDndContext>
 
-        {/* Current time indicator overlay */}
-        <CurrentTimeIndicator grid={grid} />
+          {/* Empty state overlay — only when no blocks */}
+          {isEmpty && (
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
+              <p className="text-sm text-text-tertiary text-center px-8 max-w-xs">
+                {emptyMessage}
+              </p>
+            </div>
+          )}
+
+          {/* Current time indicator overlay */}
+          <CurrentTimeIndicator grid={grid} />
+        </div>
       </div>
+
+      {/* Mobile edit sheet */}
+      {!isDesktop && <MobileEditSheet grid={grid} />}
     </div>
   )
 }
