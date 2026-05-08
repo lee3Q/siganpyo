@@ -57,7 +57,7 @@ export function useScheduleLoader(): {
   /** Build config from store values, with hardcoded fallback */
   const getConfig = useCallback((): RepoConfig => {
     return {
-      repoOwner: repoOwner || 'lee3Q',
+      repoOwner: repoOwner === 'trauma10' ? 'lee3Q' : (repoOwner || 'lee3Q'),
       repoName: repoName || 'siganpyo',
       branch: branch || 'main',
     }

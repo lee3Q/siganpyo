@@ -54,7 +54,7 @@ export const useConfigStore = create<ConfigState & ConfigActions>()(
       }),
       {
         name: 'siganpyo-config',
-        // Migration: fill repo config if empty (handles old localStorage data)
+        // Migration: fill repo config if empty or contains old username
         merge: (persisted, current) => {
           const p = persisted as Record<string, unknown> | null
           const merged = { ...current, ...(p ?? {}) } as Record<string, unknown>
@@ -62,6 +62,10 @@ export const useConfigStore = create<ConfigState & ConfigActions>()(
             merged.repoOwner = HARDCODED_REPO.repoOwner
             merged.repoName = HARDCODED_REPO.repoName
             merged.branch = HARDCODED_REPO.branch
+          }
+          // Migrate old username trauma10 → lee3Q
+          if (merged.repoOwner === 'trauma10') {
+            merged.repoOwner = 'lee3Q'
           }
           return merged as unknown as ConfigState & ConfigActions
         },
