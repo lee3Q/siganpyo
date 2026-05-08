@@ -54,9 +54,13 @@ export function useScheduleLoader(): {
   const lastFetchTimeRef = useRef<number>(0)
   const abortRef = useRef<AbortController | null>(null)
 
-  /** Build config from store values */
+  /** Build config from store values, with hardcoded fallback */
   const getConfig = useCallback((): RepoConfig => {
-    return { repoOwner, repoName, branch }
+    return {
+      repoOwner: repoOwner || 'lee3Q',
+      repoName: repoName || 'siganpyo',
+      branch: branch || 'main',
+    }
   }, [repoOwner, repoName, branch])
 
   /** Core fetch logic */
