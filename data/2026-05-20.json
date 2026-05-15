@@ -1,0 +1,299 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d3-001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "Anki 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-002",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "title": "사회보험법 핵심압축 파이널 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 04. 대기기간·수급요건·급여 종류.",
+      "advice": "숫자만 정확하면 점수 나옴.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "숫자 표 전부 암기 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-003",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "경영학 핵심압축 파이널 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 05. 인물-이론·동기이론·HRM·마케팅.",
+      "advice": "인물-이론 매칭 출제빈도 최상.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "인물-이론 10쌍 말로 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-004",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-005",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "title": "모의고사 3회 풀이 + 채점",
+      "category": "노무사",
+      "color": "red",
+      "notes": "제3회_종합모의고사.",
+      "advice": "실전처럼 60분.",
+      "checklist": [
+        {
+          "text": "60분 풀이",
+          "done": false
+        },
+        {
+          "text": "채점",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-006",
+      "startTime": "14:00",
+      "endTime": "14:30",
+      "title": "오답 분석",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "A/B/C 분류 + 1·2회 공통 오달 교차.",
+      "advice": "3회 연속 틀린 개념 = 시험에서도 틀림.",
+      "checklist": [
+        {
+          "text": "오달 분류",
+          "done": false
+        },
+        {
+          "text": "3회 공통 오달 식별",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-007",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "title": "전과목 혼동쌍 집중 정리",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "HS 전과목 + CS(혼동쌍 집중정리 50쌍).",
+      "advice": "50쌍 중 자신 없는 것만.",
+      "checklist": [
+        {
+          "text": "50쌍 중 약점 10개 식별",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-008",
+      "startTime": "15:30",
+      "endTime": "16:00",
+      "title": "휴식",
+      "category": "루틴",
+      "color": "green",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-009",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "노동법1·2 최종 약점 보완",
+      "category": "노무사",
+      "color": "red",
+      "notes": "모의고사 3회 누적 오달에서 노동법 파트만 집중 재확인.",
+      "advice": "마지막 노동법 심화 기회.",
+      "checklist": [
+        {
+          "text": "노동법 누적 오달 재확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-010",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "운동",
+      "category": "운동",
+      "color": "green",
+      "notes": "걷기 낭독.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "운동+낭독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-011",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-012",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "title": "절대틀리지마 전과목 50선 낭독",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "JM 전과목 50개 함정 소리 내어 읽기.",
+      "advice": "낭독 = 가장 효율적 암기.",
+      "checklist": [
+        {
+          "text": "50선 전과목 낭독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-013",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "Anki 저녁",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-014",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "title": "숫자30 + 포켓카드 + 초초압축",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PS30 + PK + CC. 빠르게 훑기.",
+      "advice": "마지막 3일 — 이것만 반복.",
+      "checklist": [
+        {
+          "text": "숫자30+포켓카드+초초압축",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-015",
+      "startTime": "21:00",
+      "endTime": "21:30",
+      "title": "마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": "D-2 내일은 전과목 종합 회독+모의고사4회.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "완료 체크",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d3-016",
+      "startTime": "22:00",
+      "endTime": "22:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "화면 끄기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}

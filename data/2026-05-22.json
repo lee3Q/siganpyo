@@ -1,0 +1,309 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d1-001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침 루틴",
+      "category": "루틴",
+      "color": "green",
+      "notes": "D-1. 시험 전날. 오늘은 가볍게만.",
+      "advice": "새로운 것 안 배움. 복습만.",
+      "checklist": [
+        {
+          "text": "아침 식사",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-002",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "Anki 최종 복습 (30분만)",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "30분 한도. overstudy 금지.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki 30분만",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-003",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "title": "3분 스캔 시트 전과목",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "SC 3분 스캔. 5과목 × 2회독 = 30분.",
+      "advice": "빠르게 훑고 자신감 확보.",
+      "checklist": [
+        {
+          "text": "5과목 스캔 1회",
+          "done": false
+        },
+        {
+          "text": "5과목 스캔 2회",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-004",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "title": "포켓카드 전과목",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PK 포켓카드. 모르는 것만 다시.",
+      "advice": "포켓카드 인쇄해서 시험장에 가져가기.",
+      "checklist": [
+        {
+          "text": "포켓카드 전과목 훑기",
+          "done": false
+        },
+        {
+          "text": "인쇄(가능하면)",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-005",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "초초압축 최종 1회독",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "CC 초초압축 5과목. 이것이 마지막 전과목 훑기.",
+      "advice": "아는 것에 자신감 갖기.",
+      "checklist": [
+        {
+          "text": "초초압축 전과목 1회",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-006",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "평소대로.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-007",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "title": "시험장 핫시트 전과목 (50개 함정)",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "HT(10분 핫시트) 전과목 50개 함정 빠르게 확인.",
+      "advice": "모르는 함정만 다시 읽기.",
+      "checklist": [
+        {
+          "text": "핫시트 전과목",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-008",
+      "startTime": "13:30",
+      "endTime": "14:30",
+      "title": "숫자30 + 걷기 낭독",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PS30 숫자 외우면서 30분 걷기.",
+      "advice": "운동+암기 동시.",
+      "checklist": [
+        {
+          "text": "숫자30 전부 암기",
+          "done": false
+        },
+        {
+          "text": "30분 걷기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-009",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "title": "시험장 전략 최종 확인",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "ST 시험장전략. 풀이순서·시간배분·찍기 전략 머릿속 정리.",
+      "advice": "전략이 정해져 있으면 안 떨림.",
+      "checklist": [
+        {
+          "text": "시험장 전략 재확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-010",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "title": "자유 시간",
+      "category": "루틴",
+      "color": "green",
+      "notes": "공부 멈춤. 산책·음악·휴식. overstudy 금지.",
+      "advice": "마지막 1시간은 무조건 쉬기.",
+      "checklist": [
+        {
+          "text": "공부 그만",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-011",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "가볍게.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-012",
+      "startTime": "18:00",
+      "endTime": "18:30",
+      "title": "마지막 1시간 — 전날 요약만",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "SY 전날요약만 빠르게 1회독. 30분이면 충분.",
+      "advice": "이것만 하고 끝.",
+      "checklist": [
+        {
+          "text": "전날요약 1회독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-013",
+      "startTime": "18:30",
+      "endTime": "19:00",
+      "title": "준비물 최종 확인",
+      "category": "루틴",
+      "color": "green",
+      "notes": "신분증·수험표·펜(2자루)·시계·간식·포켓카드 인쇄물. 가방에 다 넣기.",
+      "advice": "내일 아침에 챙길 필요 없게.",
+      "checklist": [
+        {
+          "text": "신분증",
+          "done": false
+        },
+        {
+          "text": "수험표",
+          "done": false
+        },
+        {
+          "text": "펜 2자루",
+          "done": false
+        },
+        {
+          "text": "아날로그 시계",
+          "done": false
+        },
+        {
+          "text": "간식(초콜릿)",
+          "done": false
+        },
+        {
+          "text": "포켓카드 인쇄물",
+          "done": false
+        },
+        {
+          "text": "시험장 교통편 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-014",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "title": "휴식",
+      "category": "루틴",
+      "color": "green",
+      "notes": "완전 휴식. 드라마·게임·산책 무엇이든.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d1-015",
+      "startTime": "21:00",
+      "endTime": "21:30",
+      "title": "취침 준비",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "21:30 취침. 수면 9시간 확보.",
+      "advice": "일찍 자면 일찍 일어남.",
+      "checklist": [
+        {
+          "text": "화면 끄기",
+          "done": false
+        },
+        {
+          "text": "알람 확인(6:00)",
+          "done": false
+        },
+        {
+          "text": "가방 현관에 두기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}

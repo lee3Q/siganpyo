@@ -1,0 +1,301 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d2-001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "Anki 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "마지막 Anki 복습 세션(내일은 최소).",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-002",
+      "startTime": "08:30",
+      "endTime": "09:30",
+      "title": "모의고사 4회 풀이 (60분)",
+      "category": "노무사",
+      "color": "red",
+      "notes": "제4회_종합모의고사. 마지막 실전 연습.",
+      "advice": "이번엔 시험장 전략 그대로 적용.",
+      "checklist": [
+        {
+          "text": "60분 풀이",
+          "done": false
+        },
+        {
+          "text": "채점",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-003",
+      "startTime": "09:30",
+      "endTime": "10:30",
+      "title": "오달 분석 + 4회 누적 종합",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "오달분석 템플릿으로 4회 누적 종합 분석. 과목별·분류별·함정유형별.",
+      "advice": "4회 연속 틀린 개념 = 시험에서 무조건 다시 봄.",
+      "checklist": [
+        {
+          "text": "4회 누적 종합",
+          "done": false
+        },
+        {
+          "text": "과목별 약점 최종 3개씩",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-004",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "title": "노동법1·2 최종 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 01+02. 누적 오달에서 나온 약점만 집중.",
+      "advice": "통독 필요 없음. 약점만.",
+      "checklist": [
+        {
+          "text": "노동법1 약점 재독",
+          "done": false
+        },
+        {
+          "text": "노동법2 약점 재독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-005",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-006",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "title": "민법·사보·경영학 최종 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 03+04+05. 30분씩. 약점만.",
+      "advice": "전 과목 1회 돌기 목표.",
+      "checklist": [
+        {
+          "text": "민법 약점 재독",
+          "done": false
+        },
+        {
+          "text": "사보 약점 재독",
+          "done": false
+        },
+        {
+          "text": "경영학 약점 재독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-007",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "title": "전과목 혼동쌍 + 숫자30 최종",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "HS + PS30. 모르는 것만 다시.",
+      "advice": "마지막 숫자 점검.",
+      "checklist": [
+        {
+          "text": "혼동쌍 약점 확인",
+          "done": false
+        },
+        {
+          "text": "숫자30 전부 암기 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-008",
+      "startTime": "15:30",
+      "endTime": "16:00",
+      "title": "휴식",
+      "category": "루틴",
+      "color": "green",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-009",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "절대틀리지마 50선 + 핫리스트",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "JM 50선 재낭독 + HL 핫리스트 모르는 것 최종 확인.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "50선 재낭독",
+          "done": false
+        },
+        {
+          "text": "핫리스트 미확인 0 목표",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-010",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "운동",
+      "category": "운동",
+      "color": "green",
+      "notes": "가벼운 산책 + 낭독요약 전과목.",
+      "advice": "마지막 낭독 기회.",
+      "checklist": [
+        {
+          "text": "산책+낭독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-011",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-012",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "title": "초초압축 전과목 2회독",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "CC 초초압축 5과목을 처음부터 끝까지 2번 훑기.",
+      "advice": "내일은 전날 요약만. 오늘이 마지막 전과목 회독.",
+      "checklist": [
+        {
+          "text": "초초압축 1회독",
+          "done": false
+        },
+        {
+          "text": "초초압축 2회독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-013",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "title": "시험장 전략 리뷰",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "시험장전략(ST) 재확인: 풀이순서·시간배분·찍기전략.",
+      "advice": "전략이 정해져 있으면 시험장에서 흔들리지 않음.",
+      "checklist": [
+        {
+          "text": "시험장 전략 1회 독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-014",
+      "startTime": "21:00",
+      "endTime": "21:30",
+      "title": "마무리 + 전날 체크리스트 확인",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험전날 체크리스트(CP) 미리 확인. 준비물 가방 챙기기.",
+      "advice": "내일은 늦잠 금지.",
+      "checklist": [
+        {
+          "text": "준비물 가방 챙기기",
+          "done": false
+        },
+        {
+          "text": "전날 체크리스트 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d2-015",
+      "startTime": "22:00",
+      "endTime": "22:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "22:00 취침(30분 일찍). 수면 8.5시간 확보.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "화면 끄기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}

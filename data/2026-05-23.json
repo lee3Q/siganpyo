@@ -1,0 +1,202 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d0-001",
+      "startTime": "06:00",
+      "endTime": "06:30",
+      "title": "기상 + 세면",
+      "category": "루틴",
+      "color": "green",
+      "notes": "D-day. 알람 6:00.",
+      "advice": "충분한 수면 후 상쾌하게.",
+      "checklist": [
+        {
+          "text": "기상",
+          "done": false
+        },
+        {
+          "text": "세면",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-002",
+      "startTime": "06:30",
+      "endTime": "07:00",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "평소대로. 위에 부담 없게.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "아침 식사",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-003",
+      "startTime": "07:00",
+      "endTime": "07:15",
+      "title": "포켓카드 빠르게 훑기",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PK 포켓카드 전과목 15분.",
+      "advice": "아는 것만 빠르게 확인.",
+      "checklist": [
+        {
+          "text": "포켓카드 15분",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-004",
+      "startTime": "07:15",
+      "endTime": "07:30",
+      "title": "준비물 최종 확인 + 출발",
+      "category": "루틴",
+      "color": "green",
+      "notes": "가방(현관). 여유 있게 이동.",
+      "advice": "30분 일찍 도착 목표.",
+      "checklist": [
+        {
+          "text": "가방 확인",
+          "done": false
+        },
+        {
+          "text": "출발",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-005",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "시험장 도착 + 대기",
+      "category": "루틴",
+      "color": "green",
+      "notes": "도착 후 포켓카드 다시 한 번 훑기.",
+      "advice": "마지막 10분은 심호흡만.",
+      "checklist": [
+        {
+          "text": "시험장 도착",
+          "done": false
+        },
+        {
+          "text": "포켓카드 훑기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-006",
+      "startTime": "09:00",
+      "endTime": "10:10",
+      "title": "1교시 (노동법1+2, 70문항)",
+      "category": "시험",
+      "color": "red",
+      "notes": "시험장 전략(ST) 그대로 적용. 과목별 시간 배분 엄수.",
+      "advice": "모르는 건 찍고 넘어가기. 시간 낭비 금지.",
+      "checklist": [
+        {
+          "text": "시험 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-007",
+      "startTime": "10:20",
+      "endTime": "11:20",
+      "title": "2교시 (민법·사보·경영, 70문항)",
+      "category": "시험",
+      "color": "red",
+      "notes": "마지막 페이스 조절. 5분 남기면 마킹 확인.",
+      "advice": "끝까지 집중.",
+      "checklist": [
+        {
+          "text": "시험 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-008",
+      "startTime": "11:30",
+      "endTime": "12:00",
+      "title": "시험 끝 — 해방",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험 생각 금지. \"끝났다.\"",
+      "advice": "오늘부터 유튜브 인생 시작.",
+      "checklist": [
+        {
+          "text": "시험 끝!",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-009",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "유튜브 채널 개설",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "채널개설_5분카드 참고. studio.youtube.com → 채널 만들기.",
+      "advice": "오늘은 채널만 만들면 됨.",
+      "checklist": [
+        {
+          "text": "채널 개설 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-010",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "title": "자유 시간 — 완전 해방",
+      "category": "루틴",
+      "color": "green",
+      "notes": "아무것도 안 해도 됨. 축하.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "해방!",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d5-001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "Anki 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "FSRS due 카드.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-002",
+      "startTime": "08:30",
+      "endTime": "09:30",
+      "title": "노동법2 핵심압축 파이널 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 02. 단체협약·쟁의·부당노동행위.",
+      "advice": "어제 혼동쌍 복습.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-003",
+      "startTime": "09:30",
+      "endTime": "10:30",
+      "title": "모의고사 1회 풀이 (60분)",
+      "category": "노무사",
+      "color": "red",
+      "notes": "제1회_종합모의고사. 실전처럼 시간 재고 풀기.",
+      "advice": "100문항 60분. 문항당 36초.",
+      "checklist": [
+        {
+          "text": "타이머 60분 설정",
+          "done": false
+        },
+        {
+          "text": "100문항 풀이",
+          "done": false
+        },
+        {
+          "text": "채점",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-004",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "모의고사 1회 오답 분석",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "A/B/C 3축 분류. 과목별 약점 식별.",
+      "advice": "분류 자체가 복습.",
+      "checklist": [
+        {
+          "text": "오답 A/B/C 분류",
+          "done": false
+        },
+        {
+          "text": "과목별 약점 정리",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-005",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "점심 + 휴식",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "과식 금지.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-006",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "title": "민법 핵심압축 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 03_민법. 대리·소멸시효·부당이득 집중.",
+      "advice": "점수 확보 과목.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "대리·소멸시효 집중",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-007",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "혼동쌍 민법·사회보험법",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "HS 혼동쌍비교표 민법+사보 파트.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "민법 혼동쌍 확인",
+          "done": false
+        },
+        {
+          "text": "사보 혼동쌍 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-008",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "title": "휴식",
+      "category": "루틴",
+      "color": "green",
+      "notes": "스트레칭.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-009",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "title": "사회보험법 핵심압축 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 04. 숫자·기간 집중. 대기기간 3일vs7일.",
+      "advice": "숫자 과목 — 암기가 전부.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "숫자 표 재확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-010",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "운동",
+      "category": "운동",
+      "color": "green",
+      "notes": "걷기 낭독(낭독요약 민법+사보).",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "운동 30분",
+          "done": false
+        },
+        {
+          "text": "낭독 병행",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-011",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁 + 씻기",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-012",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "title": "경영학 핵심압축 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 05. 인물-이론 매칭 + HRM 집중.",
+      "advice": "노동법과 겹치는 HRM이 고효율.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "인물-이론 매칭 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-013",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "Anki 저녁 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-014",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "title": "숫자30 + 3분 스캔",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PS30 + SC.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "숫자30 점검",
+          "done": false
+        },
+        {
+          "text": "3분 스캔 전과목",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-015",
+      "startTime": "21:00",
+      "endTime": "21:30",
+      "title": "마무리 + 내일 준비",
+      "category": "루틴",
+      "color": "green",
+      "notes": "D-4 내일은 민법+오답정리.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "완료 체크",
+          "done": false
+        },
+        {
+          "text": "내일 계획 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d5-016",
+      "startTime": "22:00",
+      "endTime": "22:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "22:30 취침.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "화면 끄기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}

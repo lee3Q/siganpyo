@@ -1,0 +1,331 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-15T23:00:00+09:00",
+  "blocks": [
+    {
+      "id": "d6-001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "Anki 복습 — 전과목",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "FSRS due 카드만. 아침 복습.",
+      "advice": "하루 2회 복습 원칙.",
+      "checklist": [
+        {
+          "text": "Anki due 전부 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-002",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "title": "노동법1 핵심압축 파이널 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 01_노동법1. 오답 약점 섹션 집중 재독.",
+      "advice": "약점 3개를 말로 설명해보기.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "오답 약점 재독",
+          "done": false
+        },
+        {
+          "text": "통상/평균임금 구분 말로 설명",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-003",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "title": "절대틀리지마 노동법1·2 20선 낭독",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "JM(절대틀리지마) 노동법1+2 함정 낭독.",
+      "advice": "소리 내어 읽기 = 시험장 기억.",
+      "checklist": [
+        {
+          "text": "노동법1 10선 낭독",
+          "done": false
+        },
+        {
+          "text": "노동법2 10선 낭독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-004",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "title": "노동법1 퀴즈 세트 1~2 풀이",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "QZ 노동법1_001 + 002. 오답즉시 A/B/C 분류.",
+      "advice": "틀린 것은 핵심압축에 표시.",
+      "checklist": [
+        {
+          "text": "퀴즈 001 풀이+채점",
+          "done": false
+        },
+        {
+          "text": "퀴즈 002 풀이+채점",
+          "done": false
+        },
+        {
+          "text": "오답 분류",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-005",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "점심 + 휴식",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "단백질 위주. 과식 금지.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-006",
+      "startTime": "12:30",
+      "endTime": "14:00",
+      "title": "노동법2 핵심압축 회독",
+      "category": "노무사",
+      "color": "red",
+      "notes": "CX 02_노동법2. 직장폐쇄·DB/DC·부당노동행위 집중.",
+      "advice": "서서 읽기. 졸음 방지.",
+      "checklist": [
+        {
+          "text": "핵심압축 1회독",
+          "done": false
+        },
+        {
+          "text": "직장폐쇄/DB-DC 구분 말로 설명",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-007",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "혼동쌍 노동법1·2 집중",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "HS 혼동쌍비교표에서 노동법 파트. 좌우 비교 후 커버 확인.",
+      "advice": "구분 포인트를 한 문장으로.",
+      "checklist": [
+        {
+          "text": "노동법 혼동쌍 10개 확인",
+          "done": false
+        },
+        {
+          "text": "구분 문장 말하기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-008",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "title": "휴식 + 간식",
+      "category": "루틴",
+      "color": "green",
+      "notes": "스트레칭. 물 마시기.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-009",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "핫리스트·OX퀴즈 점검",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "HL(핫리스트)에서 모르는 것 재확인 + OX(퀴즈30) 풀이.",
+      "advice": "OX는 빠르게 직감으로.",
+      "checklist": [
+        {
+          "text": "핫리스트 미확인 항목 재점검",
+          "done": false
+        },
+        {
+          "text": "OX 30문제 풀이",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-010",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "title": "운동",
+      "category": "운동",
+      "color": "green",
+      "notes": "가벼운 유산소 + 걷기 낭독(노동법 낭독요약).",
+      "advice": "운동+낭독 = 시간 2배.",
+      "checklist": [
+        {
+          "text": "운동 30분",
+          "done": false
+        },
+        {
+          "text": "낭독요약 NR 걷으면서 낭독",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-011",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "title": "저녁 + 씻기",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "가볍게.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-012",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "숫자30 + 포켓카드 점검",
+      "category": "노무사",
+      "color": "orange",
+      "notes": "PS30 전과목 숫자 + PK 포켓카드 전과목.",
+      "advice": "숫자는 출제빈도 최상위.",
+      "checklist": [
+        {
+          "text": "숫자30 전부 암기 점검",
+          "done": false
+        },
+        {
+          "text": "포켓카드 5과목 훑기",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-013",
+      "startTime": "19:30",
+      "endTime": "20:00",
+      "title": "Anki 저녁 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "오전 due + 오답 카드.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "Anki due 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-014",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "3분 스캔 시트 전과목",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "SC 3분 스캔 시트. 5과목 빠르게 훑기.",
+      "advice": "모르는 것만 표시.",
+      "checklist": [
+        {
+          "text": "5과목 스캔 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-015",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "title": "하루 마무리 + 내일 준비",
+      "category": "루틴",
+      "color": "green",
+      "notes": "D-5 내일은 노동법2+모의고사.",
+      "advice": "자책 없이 관찰만.",
+      "checklist": [
+        {
+          "text": "오늘 완료 항목 체크",
+          "done": false
+        },
+        {
+          "text": "내일 D-5 계획 확인",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d6-016",
+      "startTime": "22:00",
+      "endTime": "22:30",
+      "title": "취침 준비",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "22:30 취침. 수면 8시간 확보.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "화면 끄기",
+          "done": false
+        },
+        {
+          "text": "불 끄고 취침",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}
