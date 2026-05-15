@@ -1,0 +1,179 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T04:05:00+09:00",
+  "blocks": [
+    {
+      "id": "t001",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침 루틴",
+      "category": "루틴",
+      "color": "green",
+      "notes": "체크리스트 확인. 오늘 할 일 파악.",
+      "advice": "오늘 D-8. 남은 일수 의식하되 압박하지 말 것.",
+      "checklist": [
+        { "text": "아침 식사", "done": false },
+        { "text": "오늘 계획 확인", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t002",
+      "startTime": "09:00",
+      "endTime": "12:00",
+      "title": "노무사 강의 — 노동법1",
+      "category": "노무사",
+      "color": "red",
+      "notes": "핵심압축 01 읽고 강의 듣기. 기출문제 풀이 포함.",
+      "advice": "집중 가능한 시간대. 핵심 조문 위주로.",
+      "checklist": [
+        { "text": "핵심압축 읽기", "done": false },
+        { "text": "강의 1~2강", "done": false },
+        { "text": "기출 5문제 풀이", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t003",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심 + 휴식",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "가벼운 식사. 단백질 확보.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t004",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "title": "노무사 강의 — 민법",
+      "category": "노무사",
+      "color": "red",
+      "notes": "핵심압축 03 읽고 강의 듣기.",
+      "advice": "오후 집중력 저하 주의. 15분 단위로 쪼개기.",
+      "checklist": [
+        { "text": "핵심압축 읽기", "done": false },
+        { "text": "강의 1~2강", "done": false },
+        { "text": "혼동쌍 확인", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t005",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "title": "Anki 복습",
+      "category": "노무사",
+      "color": "purple",
+      "notes": "누적 복습 카드. FSRS 스케줄 따름.",
+      "advice": "하루 2번(아침/오후) 분산이 효과적.",
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t006",
+      "startTime": "16:30",
+      "endTime": "18:00",
+      "title": "노무사 강의 — 사회보험법",
+      "category": "노무사",
+      "color": "red",
+      "notes": "핵심압축 04 읽고 강의.",
+      "advice": null,
+      "checklist": [
+        { "text": "핵심압축 읽기", "done": false },
+        { "text": "강의 1강", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t007",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "title": "운동",
+      "category": "운동",
+      "color": "green",
+      "notes": "가슴/삼두 메인.",
+      "advice": "운동 후 단백질 섭취.",
+      "checklist": [
+        { "text": "가슴 메인 루틴", "done": false },
+        { "text": "삼두 보조", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t008",
+      "startTime": "19:30",
+      "endTime": "20:00",
+      "title": "저녁 + 씻기",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "단백질 위주 가벼운 식사.",
+      "advice": null,
+      "checklist": [],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t009",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "title": "노무사 복습 — 경영학",
+      "category": "노무사",
+      "color": "blue",
+      "notes": "핵심압축 05 읽고 기출 풀이.",
+      "advice": "운동 후 체력 고려. 못 하겠으면 Anki만.",
+      "checklist": [
+        { "text": "핵심압축 리드백", "done": false },
+        { "text": "기출 5문제", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t010",
+      "startTime": "22:00",
+      "endTime": "22:30",
+      "title": "하루 마무리 회고",
+      "category": "루틴",
+      "color": "green",
+      "notes": "오늘 한 것·내일 할 것·컨디션 체크.",
+      "advice": "자책 없이 관찰만. 내일이 또 있으니까.",
+      "checklist": [
+        { "text": "오늘 완료 항목 체크", "done": false },
+        { "text": "내일 계획 메모", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "t011",
+      "startTime": "22:30",
+      "endTime": "23:00",
+      "title": "취침 준비",
+      "category": "루틴",
+      "color": "gray",
+      "notes": "23시 취침. 수면 8시간 확보.",
+      "advice": null,
+      "checklist": [
+        { "text": "화면 끄기", "done": false },
+        { "text": "불 끄고 취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude"
+  }
+}
