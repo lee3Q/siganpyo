@@ -38,6 +38,12 @@ AI 연동 일일 플래너 PWA MVP 개발 완료.
 - AC 3에서 TypeScript 에러 수정 중 API 리트라이가 반복되며 실패
 - 실패 후 직접接管: DnD 연동 + DetailPanel 컴포넌트 생성 + 빌드/배포 완료
 
+### 배포 이슈 (2026-05-08)
+
+- **원인**: `MobileEditSheet.tsx`에서 `grid` prop 선언 후 미사용 → `TS6133` 빌드 에러 → GitHub Actions 실패
+- **수정**: unused prop + `GridDimensions` import 제거 (commit `35b1024`)
+- **결과**: 빌드 성공, gh-pages 재배포 완료
+
 ### 배포
 - GitHub: https://github.com/lee3Q/siganpyo
 - Pages: https://lee3q.github.io/siganpyo/

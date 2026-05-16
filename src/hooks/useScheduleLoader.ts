@@ -55,10 +55,10 @@ export function useScheduleLoader(): {
   const abortRef = useRef<AbortController | null>(null)
   const isInitialMountRef = useRef(true)
 
-  /** Build config from store values, with hardcoded fallback */
+  /** Build config from store values, with config-store defaults as fallback */
   const getConfig = useCallback((): RepoConfig => {
     return {
-      repoOwner: repoOwner === 'trauma10' ? 'lee3Q' : (repoOwner || 'lee3Q'),
+      repoOwner: repoOwner || 'lee3Q',
       repoName: repoName || 'siganpyo',
       branch: branch || 'main',
     }

@@ -31,7 +31,15 @@ const APP_SHELL_ASSETS = [
 // 라우팅 상수
 // ──────────────────────────────────────────────
 
-/** GitHub Raw 데이터 캐시 (동적 콘텐츠 = network-first) */
+/**
+ * GitHub Raw 데이터 캐시 (동적 콘텐츠 = network-first)
+ *
+ * NOTE: schedule-fetch.ts has its own 3-layer cache (L1 memory + L2 localStorage + L3 network).
+ * This SW Cache API layer is a 4th layer that intercepts the actual HTTP fetch.
+ * The app never reads from this SW cache directly — schedule-fetch.ts reads from memory/localStorage.
+ * This is intentionally redundant: SW caches for offline resilience at the browser level,
+ * while schedule-fetch.ts caches for fast synchronous access at the app level.
+ */
 const GITHUB_DATA_CACHE = 'siganpyo-github-data'
 
 /** 정적 에셋 런타임 캐시 (cache-first) */

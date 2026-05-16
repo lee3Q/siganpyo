@@ -32,7 +32,7 @@ import { TTLCache } from '@/lib/ttl-cache'
 // Types
 // ---------------------------------------------------------------------------
 
-/** GitHub repository configuration (mirrors github-data.ts) */
+/** GitHub repository configuration */
 export interface RepoConfig {
   repoOwner: string
   repoName: string
@@ -64,6 +64,9 @@ export interface FetchOptions {
 const memoryCache = new TTLCache<string, DaySchedule | null>({
   ttlMs: 5 * 60 * 1000, // 5 minutes
 })
+
+/** In-flight fetch deduplication: same date+config shares one network request */
+const pendingFetches = new Map<string, Promise<ScheduleFetchResult>>()
 
 // ---------------------------------------------------------------------------
 // L2: localStorage cache (24-hour TTL)
@@ -254,8 +257,17 @@ export async function fetchSchedule(
     }
   }
 
-  // ---- L3: Fetch from GitHub ----
-  return doNetworkFetch(date, config, key, options)
+  // ---- L3: Fetch from GitHub (with deduplication) ----
+  const pending = pendingFetches.get(key)
+  if (pending && !options?.forceRefresh) {
+    return pending
+  }
+
+  const fetchPromise = doNetworkFetch(date, config, key, options).finally(() => {
+    pendingFetches.delete(key)
+  })
+  pendingFetches.set(key, fetchPromise)
+  return fetchPromise
 }
 
 /**

@@ -97,8 +97,8 @@ function loadEditsFromLocalStorage(date: string): LocalEdit | null {
 
 function saveEditsToLocalStorage(edits: LocalEdit): void {
   try {
-    edits.updated_at = new Date().toISOString()
-    localStorage.setItem(`edits-${edits.date}`, JSON.stringify(edits))
+    const toSave = { ...edits, updated_at: new Date().toISOString() }
+    localStorage.setItem(`edits-${toSave.date}`, JSON.stringify(toSave))
   } catch {
     // localStorage quota exceeded — silently fail; data is still in memory
     console.warn(`[schedule-store] Failed to save edits for ${edits.date}`)
@@ -166,9 +166,11 @@ export const useScheduleStore = create<ScheduleState & ScheduleActions>()(
     getMergedBlocks: (): TimeBlock[] => {
       const { remoteSchedule, localEdits } = get()
 
-      // No remote data — return local additions only
+      // No remote data — return local additions only (sorted)
       if (!remoteSchedule) {
-        return localEdits ? [...localEdits.additions] : []
+        const blocks = localEdits ? [...localEdits.additions] : []
+        blocks.sort((a, b) => a.startTime.localeCompare(b.startTime))
+        return blocks
       }
 
       const local = localEdits

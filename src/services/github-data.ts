@@ -1,4 +1,11 @@
 /**
+ * @deprecated This file is superseded by `schedule-fetch.ts` which provides
+ * 3-layer caching (L1 memory + L2 localStorage + L3 network). This file only
+ * has single-layer (L1 memory) caching and is not imported anywhere.
+ * Kept for reference only — safe to remove after confirming no usage.
+ */
+
+/**
  * GitHub Raw URL Data Fetch Service
  *
  * Fetches day schedule data from GitHub raw URLs:
