@@ -19,8 +19,11 @@
  *   - Empty state overlay (when no blocks)
  */
 
-import { useMemo, useCallback, useRef } from 'react'
+import { useMemo, useCallback, useRef, useEffect } from 'react'
+import { useTheme } from 'next-themes'
 import { useGridDimensions, HEADER_HEIGHT_PX } from '@/hooks/useGridDimensions'
+import { useIsDesktop } from '@/hooks/useMediaQuery'
+import { usePullToRefresh } from '@/hooks/usePullToRefresh'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore } from '@/stores/ui-store'
 import { TimeSlot } from './TimeSlot'
@@ -29,6 +32,10 @@ import { CurrentTimeIndicator } from './CurrentTimeIndicator'
 import { TimeGridDndContext } from '@/components/dnd/TimeGridDndContext'
 import { SortableTimeBlock } from '@/components/dnd/SortableTimeBlock'
 import { MobileEditSheet } from './MobileEditSheet'
+import { KeyboardShortcutsDialog } from '@/components/KeyboardShortcutsDialog'
+import { TemplateDialog } from '@/components/TemplateDialog'
+import { computeBlockColumns } from '@/utils/blockLayout'
+import { todayString } from '@/utils/todayString'
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -48,7 +55,7 @@ function formatDateKorean(dateStr: string): string {
 // Component
 // ---------------------------------------------------------------------------
 
-export function TimeGrid() {
+export function TimeGrid({ onRefresh }: { onRefresh: () => void }) {
   const grid = useGridDimensions()
   const currentDate = useScheduleStore((s) => s.currentDate)
   const isLoading = useScheduleStore((s) => s.isLoading)
@@ -60,14 +67,27 @@ export function TimeGrid() {
   const navigateToDate = useScheduleStore((s) => s.navigateToDate)
   const closeCreateBlock = useUIStore((s) => s.closeCreateBlock)
   const isOffline = useUIStore((s) => s.isOffline)
+  const toggleKeyboardHelp = useUIStore((s) => s.toggleKeyboardHelp)
+  const isTemplateDialogOpen = useUIStore((s) => s.isTemplateDialogOpen)
+  const toggleTemplateDialog = useUIStore((s) => s.toggleTemplateDialog)
 
-  const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 768
+  const isDesktop = useIsDesktop()
+  const { theme, setTheme } = useTheme()
+
+  const toggleTheme = useCallback(() => {
+    setTheme(theme === 'dark' ? 'light' : theme === 'light' ? 'system' : 'dark')
+  }, [theme, setTheme])
+
+  const pullRefresh = usePullToRefresh(onRefresh)
 
   // Swipe state for mobile date navigation
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
 
   // Merge remote + local data → sorted TimeBlock[] for rendering
   const blocks = useMemo(() => getMergedBlocks(), [getMergedBlocks, remoteSchedule])
+
+  // Compute overlap-aware column layout
+  const blockColumns = useMemo(() => computeBlockColumns(blocks), [blocks])
 
   // Generate slot data: [startHour:00, startHour:30, startHour+1:00, ...]
   const slots = useMemo(() => {
@@ -98,6 +118,13 @@ export function TimeGrid() {
         ? '데이터를 불러올 수 없습니다. 빈 슬롯을 클릭하여 새 블록을 만드세요.'
         : '계획을 세워보세요. 빈 슬롯을 클릭하여 새 블록을 만들 수 있습니다.'
 
+  // Progress
+  const doneCount = blocks.filter((b) => b.status === 'done').length
+  const totalBlocks = blocks.length
+  const progressPct = totalBlocks > 0 ? Math.round((doneCount / totalBlocks) * 100) : 0
+
+  const isPastDate = currentDate < todayString()
+
   const shiftDate = useCallback((days: number) => {
     const d = new Date(currentDate + 'T00:00:00')
     d.setDate(d.getDate() + days)
@@ -106,6 +133,22 @@ export function TimeGrid() {
     const day = String(d.getDate()).padStart(2, '0')
     navigateToDate(`${y}-${m}-${day}`)
   }, [currentDate, navigateToDate])
+
+  // Global ? key to toggle keyboard help, T for template dialog
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      if (e.key === '?') {
+        e.preventDefault()
+        toggleKeyboardHelp()
+      } else if (e.key === 't' || e.key === 'T') {
+        e.preventDefault()
+        toggleTemplateDialog()
+      }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [toggleKeyboardHelp, toggleTemplateDialog])
 
   // Mobile swipe handlers
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
@@ -161,7 +204,45 @@ export function TimeGrid() {
               {error}
             </span>
           )}
+          {totalBlocks > 0 && !isLoading && (
+            <div className="flex items-center gap-1.5">
+              <div className="w-16 h-1.5 bg-surface-dimmed rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-emerald-500 rounded-full transition-all duration-300"
+                  style={{ width: `${progressPct}%` }}
+                />
+              </div>
+              <span className="text-[10px] text-text-tertiary tabular-nums">
+                {doneCount}/{totalBlocks}
+              </span>
+            </div>
+          )}
           <span className="text-xs text-text-tertiary">시간표</span>
+          <button
+            className={`flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm ${isDesktop ? 'w-7 h-7' : 'w-11 h-11'}`}
+            onClick={toggleTemplateDialog}
+            aria-label="템플릿"
+            title="템플릿 저장/불러오기"
+          >
+            <svg className={isDesktop ? 'size-4' : 'size-5'} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 15a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H5a1 1 0 01-1-1v-4z" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M14 15h6m-3-3v6" />
+            </svg>
+          </button>
+          <button
+            className={`flex items-center justify-center rounded hover:bg-muted text-text-secondary text-sm ${isDesktop ? 'w-7 h-7' : 'w-11 h-11'}`}
+            onClick={toggleKeyboardHelp}
+            aria-label="키보드 단축키"
+            title="키보드 단축키 (?)"
+          >
+            ?
+          </button>
+          <button
+            aria-label={`테마: ${theme === 'dark' ? '다크' : theme === 'light' ? '라이트' : '시스템'}`}
+            title={`테마: ${theme === 'dark' ? '다크' : theme === 'light' ? '라이트' : '시스템'}`}
+          >
+            {theme === 'dark' ? '🌙' : theme === 'light' ? '☀️' : '💻'}
+          </button>
         </div>
       </header>
 
@@ -174,13 +255,43 @@ export function TimeGrid() {
         </div>
       )}
 
+      {/* Past date banner */}
+      {isPastDate && (
+        <div className="flex-shrink-0 px-4 py-1 bg-slate-50 dark:bg-slate-800 border-b border-border text-center">
+          <span className="text-xs text-text-tertiary">
+            과거 날짜 — 읽기 전용
+          </span>
+        </div>
+      )}
+
       {/* Grid area — responsive layout */}
       <div
         className={`flex-1 relative ${isDesktop ? 'overflow-y-auto' : 'overflow-hidden'}`}
         onClick={handleGridClick}
-        onTouchStart={!isDesktop ? handleTouchStart : undefined}
-        onTouchEnd={!isDesktop ? handleTouchEnd : undefined}
+        onTouchStart={!isDesktop ? (e) => { handleTouchStart(e); pullRefresh.onTouchStart(e); } : undefined}
+        onTouchMove={!isDesktop ? (e) => { pullRefresh.onTouchMove(e); } : undefined}
+        onTouchEnd={!isDesktop ? (e) => { handleTouchEnd(e); pullRefresh.onTouchEnd(); } : undefined}
       >
+        {/* Pull-to-refresh indicator */}
+        {!isDesktop && pullRefresh.pullDistance > 0 && (
+          <div
+            className="absolute top-0 left-0 right-0 flex items-center justify-center z-30 pointer-events-none transition-opacity"
+            style={{ height: pullRefresh.pullDistance }}
+          >
+            <svg
+              className={`w-5 h-5 text-text-tertiary ${pullRefresh.isTriggered ? 'animate-spin' : ''}`}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <span className="ml-1.5 text-xs text-text-tertiary">
+              {pullRefresh.isTriggered ? '놓으면 새로고침' : '당겨서 새로고침'}
+            </span>
+          </div>
+        )}
         {/* Desktop: center column with max-width */}
         <div className={`mx-auto ${isDesktop ? 'max-w-xl' : ''}`} style={{ height: isDesktop ? grid.gridHeight : undefined }}>
           {/* Slot rows (background grid lines + time labels) */}
@@ -204,6 +315,7 @@ export function TimeGrid() {
             hourHeight={grid.slotHeight * 2}
             onMoveBlock={(blockId, newStartTime) => moveBlock(blockId, newStartTime)}
             onResizeBlock={(blockId, newEndTime) => resizeBlock(blockId, newEndTime)}
+            disabled={isPastDate}
           >
             <div className={`absolute inset-0 pointer-events-none ${isDesktop ? 'max-w-xl mx-auto' : ''}`}>
               {blocks.map((block) => (
@@ -214,7 +326,7 @@ export function TimeGrid() {
                   endTime={block.endTime}
                 >
                   <div data-time-block className="pointer-events-auto">
-                    <TimeBlockCard block={block} grid={grid} />
+                    <TimeBlockCard block={block} grid={grid} columnLayout={blockColumns.get(block.id) ?? { column: 0, totalColumns: 1 }} readOnly={isPastDate} />
                   </div>
                 </SortableTimeBlock>
               ))}
@@ -237,6 +349,12 @@ export function TimeGrid() {
 
       {/* Mobile edit sheet */}
       {!isDesktop && <MobileEditSheet />}
+
+      {/* Keyboard shortcuts help */}
+      <KeyboardShortcutsDialog />
+
+      {/* Template dialog */}
+      <TemplateDialog open={isTemplateDialogOpen} onOpenChange={toggleTemplateDialog} />
     </div>
   )
 }

@@ -13,6 +13,7 @@ import { Checkbox } from '@/components/ui/checkbox'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore } from '@/stores/ui-store'
 import type { BlockColor, BlockStatus } from '@/types'
+import { todayString } from '@/utils/todayString'
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -67,6 +68,9 @@ export function MobileEditSheet() {
   const resizeBlock = useScheduleStore((s) => s.resizeBlock)
   const deleteBlock = useScheduleStore((s) => s.deleteBlock)
   const toggleChecklistItem = useScheduleStore((s) => s.toggleChecklistItem)
+  const currentDate = useScheduleStore((s) => s.currentDate)
+
+  const isPastDate = currentDate < todayString()
 
   const block = useMemo(
     () => getMergedBlocks().find((b) => b.id === focusedBlockId) ?? null,
@@ -112,12 +116,14 @@ export function MobileEditSheet() {
             <input
               className="text-sm font-semibold flex-1 bg-transparent border-none outline-none"
               value={block.title}
-              onChange={(e) => updateBlockField(block.id, 'title', e.target.value)}
+              onChange={(e) => !isPastDate && updateBlockField(block.id, 'title', e.target.value)}
+              readOnly={isPastDate}
               placeholder="제목"
             />
             <button
-              className="text-xs px-3 py-1.5 rounded-full bg-muted font-medium min-h-[44px] flex items-center"
+              className="text-xs px-3 py-1.5 rounded-full bg-muted font-medium min-h-[44px] flex items-center disabled:opacity-50"
               onClick={cycleStatus}
+              disabled={isPastDate}
             >
               {STATUSES.find((s) => s.value === block.status)?.label}
             </button>
@@ -130,6 +136,7 @@ export function MobileEditSheet() {
               <button
                 className="w-9 h-9 flex items-center justify-center rounded bg-muted text-sm font-medium active:bg-muted/70"
                 onClick={() => shiftStartTime(-15)}
+                disabled={isPastDate}
               >
                 -
               </button>
@@ -137,6 +144,7 @@ export function MobileEditSheet() {
               <button
                 className="w-9 h-9 flex items-center justify-center rounded bg-muted text-sm font-medium active:bg-muted/70"
                 onClick={() => shiftStartTime(15)}
+                disabled={isPastDate}
               >
                 +
               </button>
@@ -147,6 +155,7 @@ export function MobileEditSheet() {
               <button
                 className="w-9 h-9 flex items-center justify-center rounded bg-muted text-sm font-medium active:bg-muted/70"
                 onClick={() => shiftEndTime(-15)}
+                disabled={isPastDate}
               >
                 -
               </button>
@@ -154,6 +163,7 @@ export function MobileEditSheet() {
               <button
                 className="w-9 h-9 flex items-center justify-center rounded bg-muted text-sm font-medium active:bg-muted/70"
                 onClick={() => shiftEndTime(15)}
+                disabled={isPastDate}
               >
                 +
               </button>
@@ -166,8 +176,9 @@ export function MobileEditSheet() {
             {COLORS.map((c) => (
               <button
                 key={c.value}
-                className={`w-7 h-7 rounded-full ${c.className} ${block.color === c.value ? 'ring-2 ring-offset-1 ring-primary' : ''}`}
+                className={`w-7 h-7 rounded-full ${c.className} ${block.color === c.value ? 'ring-2 ring-offset-1 ring-primary' : ''} disabled:opacity-50`}
                 onClick={() => updateBlockField(block.id, 'color', c.value)}
+                disabled={isPastDate}
                 aria-label={c.label}
               />
             ))}
@@ -182,7 +193,8 @@ export function MobileEditSheet() {
             <Textarea
               className="min-h-[80px] text-sm resize-none"
               value={block.notes}
-              onChange={(e) => updateBlockField(block.id, 'notes', e.target.value)}
+              onChange={(e) => !isPastDate && updateBlockField(block.id, 'notes', e.target.value)}
+              readOnly={isPastDate}
               placeholder="메모를 입력하세요..."
             />
           </div>
@@ -221,12 +233,13 @@ export function MobileEditSheet() {
             variant="destructive"
             size="sm"
             className="w-full text-xs min-h-[44px]"
+            disabled={isPastDate}
             onClick={() => {
               deleteBlock(block.id)
               closeDetailPanel()
             }}
           >
-            블록 삭제
+            {isPastDate ? '과거 날짜 (읽기 전용)' : '블록 삭제'}
           </Button>
         </div>
       </SheetContent>

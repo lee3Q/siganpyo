@@ -48,6 +48,26 @@ export interface LocalEdit {
   updated_at: string
 }
 
+/** Template block — TimeBlock without runtime fields */
+export interface TemplateBlock {
+  startTime: string
+  endTime: string
+  title: string
+  category: string | null
+  color: BlockColor
+  notes: string
+  advice: string | null
+  checklist: Omit<ChecklistItem, 'done'>[]
+}
+
+/** DayTemplate — saved block pattern for reuse */
+export interface DayTemplate {
+  id: string
+  name: string
+  blocks: TemplateBlock[]
+  createdAt: string
+}
+
 /** UserConfig — stored in localStorage */
 export interface UserConfig {
   dayStartHour: number  // default 6

@@ -16,6 +16,10 @@ export interface UIState {
   activePanelTab: PanelTab
   /** Whether the app is in offline mode */
   isOffline: boolean
+  /** Whether the keyboard shortcuts help overlay is open */
+  isKeyboardHelpOpen: boolean
+  /** Whether the template dialog is open */
+  isTemplateDialogOpen: boolean
   /** ID of the block currently being edited (drag / resize) */
   editingBlockId: string | null
   /** Whether the block creation modal is open */
@@ -45,6 +49,12 @@ export interface UIActions {
   // Offline
   setOffline: (offline: boolean) => void
 
+  // Keyboard help
+  toggleKeyboardHelp: () => void
+
+  // Template dialog
+  toggleTemplateDialog: () => void
+
   // Reset
   reset: () => void
 }
@@ -60,6 +70,8 @@ const initialState: UIState = {
   isDetailPanelOpen: false,
   activePanelTab: 'notes',
   isOffline: false,
+  isKeyboardHelpOpen: false,
+  isTemplateDialogOpen: false,
   editingBlockId: null,
   isCreateBlockOpen: false,
   newBlockStartTime: null,
@@ -151,6 +163,20 @@ export const useUIStore = create<UIState & UIActions>()(
     setOffline: (offline: boolean) => {
       set((state) => {
         state.isOffline = offline
+      })
+    },
+
+    toggleKeyboardHelp: () => {
+      set((state) => {
+        state.isKeyboardHelpOpen = !state.isKeyboardHelpOpen
+      })
+    },
+
+    // ---- Template dialog ---------------------------------------------------
+
+    toggleTemplateDialog: () => {
+      set((state) => {
+        state.isTemplateDialogOpen = !state.isTemplateDialogOpen
       })
     },
 

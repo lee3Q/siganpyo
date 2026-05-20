@@ -20,13 +20,7 @@ import type { DaySchedule, TimeBlock } from '@/types'
 // Helpers
 // ---------------------------------------------------------------------------
 
-function todayString(): string {
-  const now = new Date()
-  const yyyy = now.getFullYear()
-  const mm = String(now.getMonth() + 1).padStart(2, '0')
-  const dd = String(now.getDate()).padStart(2, '0')
-  return `${yyyy}-${mm}-${dd}`
-}
+import { todayString } from '@/utils/todayString'
 
 // ---------------------------------------------------------------------------
 // Sample TimeBlocks — a typical day schedule

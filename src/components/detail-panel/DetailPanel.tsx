@@ -15,6 +15,8 @@ import { Checkbox } from '@/components/ui/checkbox'
 import { useScheduleStore } from '@/stores/schedule-store'
 import { useUIStore, type PanelTab } from '@/stores/ui-store'
 import type { BlockColor, BlockStatus } from '@/types'
+import { todayString } from '@/utils/todayString'
+import { getDefaultColor } from '@/utils/categoryColor'
 
 // ---------------------------------------------------------------------------
 // Constants
@@ -52,6 +54,9 @@ export function DetailPanel() {
   const addChecklistItem = useScheduleStore((s) => s.addChecklistItem)
   const removeChecklistItem = useScheduleStore((s) => s.removeChecklistItem)
   const deleteBlock = useScheduleStore((s) => s.deleteBlock)
+  const currentDate = useScheduleStore((s) => s.currentDate)
+
+  const isPastDate = currentDate < todayString()
 
   const block = useMemo(
     () => getMergedBlocks().find((b) => b.id === focusedBlockId) ?? null,
@@ -72,16 +77,18 @@ export function DetailPanel() {
           <input
             className="text-sm font-semibold w-full bg-transparent border-none outline-none"
             value={block.title}
-            onChange={(e) => updateBlockField(block.id, 'title', e.target.value)}
+            onChange={(e) => !isPastDate && updateBlockField(block.id, 'title', e.target.value)}
+            readOnly={isPastDate}
             placeholder="제목"
           />
           <div className="flex items-center gap-2 text-xs text-muted-foreground">
             <span>{block.startTime} – {block.endTime}</span>
             <span>·</span>
             <select
-              className="bg-transparent text-xs outline-none cursor-pointer"
+              className="bg-transparent text-xs outline-none cursor-pointer disabled:cursor-not-allowed"
               value={block.status}
               onChange={(e) => updateBlockField(block.id, 'status', e.target.value as BlockStatus)}
+              disabled={isPastDate}
             >
               {STATUSES.map((s) => (
                 <option key={s.value} value={s.value}>{s.label}</option>
@@ -95,8 +102,9 @@ export function DetailPanel() {
             {COLORS.map((c) => (
               <button
                 key={c.value}
-                className={`w-4 h-4 rounded-full ${c.className} ${block.color === c.value ? 'ring-2 ring-offset-1 ring-primary' : ''}`}
+                className={`w-4 h-4 rounded-full ${c.className} ${block.color === c.value ? 'ring-2 ring-offset-1 ring-primary' : ''} disabled:opacity-50`}
                 onClick={() => updateBlockField(block.id, 'color', c.value)}
+                disabled={isPastDate}
                 aria-label={c.label}
               />
             ))}
@@ -106,7 +114,14 @@ export function DetailPanel() {
           <input
             className="text-xs w-full bg-transparent border-none outline-none text-muted-foreground"
             value={block.category ?? ''}
-            onChange={(e) => updateBlockField(block.id, 'category', e.target.value || null)}
+            onChange={(e) => {
+              if (isPastDate) return
+              const cat = e.target.value || null
+              updateBlockField(block.id, 'category', cat)
+              const autoColor = getDefaultColor(cat)
+              if (autoColor) updateBlockField(block.id, 'color', autoColor)
+            }}
+            readOnly={isPastDate}
             placeholder="카테고리 (선택)"
           />
         </div>
@@ -127,7 +142,8 @@ export function DetailPanel() {
             <Textarea
               className="min-h-[120px] text-sm resize-none"
               value={block.notes}
-              onChange={(e) => updateBlockField(block.id, 'notes', e.target.value)}
+              onChange={(e) => !isPastDate && updateBlockField(block.id, 'notes', e.target.value)}
+              readOnly={isPastDate}
               placeholder="메모를 입력하세요..."
             />
           </TabsContent>
@@ -171,12 +187,13 @@ export function DetailPanel() {
             variant="destructive"
             size="sm"
             className="w-full text-xs"
+            disabled={isPastDate}
             onClick={() => {
               deleteBlock(block.id)
               closeDetailPanel()
             }}
           >
-            블록 삭제
+            {isPastDate ? '과거 날짜 (읽기 전용)' : '블록 삭제'}
           </Button>
         </div>
       </SheetContent>

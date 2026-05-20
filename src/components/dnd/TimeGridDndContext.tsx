@@ -81,6 +81,8 @@ export interface TimeGridDndContextProps {
   onDragStart?: (blockId: string) => void
   /** Called when a drag ends (regardless of outcome) */
   onDragEnd?: () => void
+  /** Disable all drag interactions (e.g. for past dates) */
+  disabled?: boolean
   /** Render the drag overlay content for the active block */
   renderDragOverlay?: (blockId: string) => ReactNode
   children: ReactNode
@@ -100,6 +102,7 @@ export function TimeGridDndContext({
   onDragStart,
   onDragEnd,
   renderDragOverlay,
+  disabled,
   children,
 }: TimeGridDndContextProps) {
   const [activeId, setActiveId] = useState<UniqueIdentifier | null>(null)
@@ -256,7 +259,7 @@ export function TimeGridDndContext({
 
   return (
     <DndContext
-      sensors={sensors}
+      sensors={disabled ? [] : sensors}
       collisionDetection={collisionDetection}
       modifiers={[snapModifier]}
       onDragStart={handleDragStart}

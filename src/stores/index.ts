@@ -6,3 +6,6 @@ export type { UIState, UIActions, PanelTab } from './ui-store'
 
 export { useConfigStore } from './config-store'
 export type { ConfigState, ConfigActions } from './config-store'
+
+export { useTemplateStore } from './template-store'
+export type { TemplateState, TemplateActions } from './template-store'
