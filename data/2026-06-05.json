@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w2-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-003",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 일본어 — Day 43 (독해 심화+청해)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 기출 독해 집중. 청해 7일 연속 섀도잉 확인. 파일: 일본어/Day29to35_가이드",
+      "advice": "청해 7일 연속 달성 체크.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "독해 3문제", "done": false },
+        { "text": "청해 섀도잉", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-004",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "EP24 촬영+편집+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "새 시리즈 2편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP24 촬영", "done": false },
+        { "text": "편집+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-005",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-006",
+      "startTime": "14:30",
+      "endTime": "15:00",
+      "title": "Sentence mining 5문장",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "AI 축 학습.",
+      "advice": null,
+      "checklist": [{ "text": "mining 5문장", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-007",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-009",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 둘째 주 목요일. N2 Day 43(독해 심화+청해) + EP24 + mining."
+  }
+}

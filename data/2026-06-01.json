@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w2-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-002",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-003",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "title": "N2 일본어 — Day 39 (문법 Ch5+청해)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "해커스 N2 문법 Ch5. N2 기출 청해 섀도잉+딕테이션. 파일: 일본어/Day29to35_가이드",
+      "advice": null,
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "문법 Ch5", "done": false },
+        { "text": "청해 섀도잉", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-005",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "EP21 촬영+편집+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "새 시리즈 계속.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP21 촬영", "done": false },
+        { "text": "편집", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-006",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "title": "EP22 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "EP22 촬영+업로드", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-007",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "title": "Sentence mining 5문장",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "AI 축 학습.",
+      "advice": null,
+      "checklist": [{ "text": "mining 5문장", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-008",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-009",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w2-010",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 둘째 주 일요일. N2 Day 39(문법 Ch5+청해) + EP21~22 + mining."
+  }
+}
