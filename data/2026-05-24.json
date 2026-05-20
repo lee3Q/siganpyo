@@ -1,0 +1,217 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-20T12:00:00+09:00",
+  "blocks": [
+    {
+      "id": "p1-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "느긋한 기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험 끝난 다음날. 늦잠 허용.",
+      "advice": null,
+      "checklist": [
+        { "text": "기상", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-002",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "title": "아침 식사 + 커피",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "평소대로.",
+      "advice": null,
+      "checklist": [
+        { "text": "아침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-003",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "title": "채널 개설 확인 + 프로필 세팅",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "5/23에 개설 못했으면 지금. 채널명·프로필·배너 설정. 파일: 유튜브/채널개설_3분카드",
+      "advice": "개설 이미 했으면 스킵.",
+      "checklist": [
+        { "text": "채널 개설/확인", "done": false },
+        { "text": "프로필 사진 설정", "done": false },
+        { "text": "채널 설명 작성", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-004",
+      "startTime": "10:30",
+      "endTime": "11:00",
+      "title": "EP01 촬영 준비",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "촬영초간편 카드 폰으로 열기. 카메라→1080p/30fps. 조명+삼각대 세팅. 파일: 유튜브/EP01_촬영초간편_2026-05-20.md",
+      "advice": "완벽하지 않아도 됨. 1테이크라도 올리는 게 중요.",
+      "checklist": [
+        { "text": "촬영카드 열기", "done": false },
+        { "text": "카메라 세팅", "done": false },
+        { "text": "조명 확인", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-005",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "EP01 촬영",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "5 TAKE 순서대로. NG 나면 다시. 최대 3회. 파일: 유튜브/EP01_촬영초간편",
+      "advice": "끝까지 읽으면 된다. 감정은 자연스럽게.",
+      "checklist": [
+        { "text": "EP01 촬영 완료", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-006",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "CapCut 편집 — EP01",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "클립 연결→자막→BGM→내보내기. 가이드: 유튜브/모바일촬영_체크리스트",
+      "advice": "자막은 필수. BGM은 선택.",
+      "checklist": [
+        { "text": "클립 연결", "done": false },
+        { "text": "자막 삽입", "done": false },
+        { "text": "내보내기", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-007",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "편집 끝나고 식사.",
+      "advice": null,
+      "checklist": [
+        { "text": "점심", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-008",
+      "startTime": "14:00",
+      "endTime": "14:30",
+      "title": "EP01 업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "제목·설명·태그 복붙. 공개 설정. 파일: 유튜브/쇼츠업로드_SEO_체크리스트 + 유튜브/EP01-03_업로드메타",
+      "advice": "첫 영상. 완벽하지 않아도 된다.",
+      "checklist": [
+        { "text": "제목 입력", "done": false },
+        { "text": "설명문 복붙", "done": false },
+        { "text": "태그 추가", "done": false },
+        { "text": "공개 업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-009",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "title": "EP09 쇼츠 촬영 + 편집 + 업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "2번째 영상. 쇼츠 30초. 파일: 유튜브/EP09_촬영초간편",
+      "advice": "쇼츠는 가볍게. 1테이크 목표.",
+      "checklist": [
+        { "text": "EP09 촬영", "done": false },
+        { "text": "편집", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-010",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "자유 시간",
+      "category": "루틴",
+      "color": "green",
+      "notes": "산책·게임·아무거나.",
+      "advice": null,
+      "checklist": [
+        { "text": "휴식", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-011",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "저녁", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-012",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "N2 Anki 15분 복습 (선택)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "시험 끝났으니 가볍게만. due 카드 있으면.",
+      "advice": "안 해도 됨.",
+      "checklist": [
+        { "text": "Anki due 카드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p1-013",
+      "startTime": "22:30",
+      "endTime": "23:00",
+      "title": "취침 준비",
+      "category": "루틴",
+      "color": "green",
+      "notes": "정상 수면 리듬 복귀 시작.",
+      "advice": null,
+      "checklist": [
+        { "text": "취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 다음날. YouTube EP01+EP09 목표."
+  }
+}

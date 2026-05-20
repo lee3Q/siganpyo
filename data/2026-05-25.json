@@ -1,0 +1,197 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-20T12:00:00+09:00",
+  "blocks": [
+    {
+      "id": "p2-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": "수면 리듬 복귀. 8:30 기상.",
+      "advice": null,
+      "checklist": [
+        { "text": "기상", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "아침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-003",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "EP02 촬영 + 편집",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "분석 영상 3분. 파일: 유튜브/EP02_촬영초간편",
+      "advice": "어제 EP01 해봤으니 더 수월할 것.",
+      "checklist": [
+        { "text": "EP02 촬영", "done": false },
+        { "text": "편집", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-004",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "EP02 업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "제목·설명·태그 복붙. 파일: 유튜브/메타데이터_가이드_분석채널",
+      "advice": null,
+      "checklist": [
+        { "text": "EP02 업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-005",
+      "startTime": "11:30",
+      "endTime": "12:30",
+      "title": "EP10 쇼츠 촬영 + 편집 + 업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 30초. 파일: 유튜브/EP10_촬영초간편",
+      "advice": null,
+      "checklist": [
+        { "text": "EP10 촬영+편집+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-006",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "점심", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-007",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "Bodypart Tracker 스크린샷 촬영 (선택)",
+      "category": "프로젝트",
+      "color": "teal",
+      "notes": "GitHub 릴리스용 스크린샷 5종. 파일: bodypart-tracker/RELEASE_PREP_2026-05-20.md",
+      "advice": "시간 나면.",
+      "checklist": [
+        { "text": "메인 화면", "done": false },
+        { "text": "기록 화면", "done": false },
+        { "text": "히스토리", "done": false },
+        { "text": "다크모드", "done": false },
+        { "text": "모바일 반응형", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-008",
+      "startTime": "15:00",
+      "endTime": "16:30",
+      "title": "N2 일본어 — 첫 복귀 세션",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Anki due 카드 + 한자 음독 1페이지 스캔. 파일: 일본어/Anki_FSRS_설정가이드",
+      "advice": "가볍게 시작. 30분만 해도 충분.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "한자 1페이지", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-009",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": "시험 기간 운동 부재 복귀.",
+      "advice": null,
+      "checklist": [
+        { "text": "운동", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-010",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "저녁", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-011",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "다음 주 계획 세우기",
+      "category": "루틴",
+      "color": "green",
+      "notes": "YouTube 업로드 스케줄 + N2 주간 계획 + 기타 프로젝트. 파일: 유튜브/시험후_72시간_통합 + 유튜브/업로드순서_최종",
+      "advice": "큰 그림만.",
+      "checklist": [
+        { "text": "주간 계획 수립", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "p2-012",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": "정상 수면 리듬.",
+      "advice": null,
+      "checklist": [
+        { "text": "취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 2일 후. YouTube EP02+EP10 + N2 복귀 + Bodypart Tracker."
+  }
+}
