@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-20T23:50:00+09:00",
+  "blocks": [
+    {
+      "id": "w1-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "기상", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "아침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-003",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "EP14 쇼츠 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "죄책감 EP14(인간실격). 파일: 유튜브/EP14_촬영초간편",
+      "advice": null,
+      "checklist": [
+        { "text": "EP14 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-004",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "EP15 롱폼 촬영+편집",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "죄책감 EP15(도로헤도로) 롱폼. 파일: 유튜브/EP15_촬영초간편",
+      "advice": "롱폼은 편집에 시간 더 걸림.",
+      "checklist": [
+        { "text": "EP15 촬영", "done": false },
+        { "text": "편집", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-005",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "점심", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-006",
+      "startTime": "13:30",
+      "endTime": "14:30",
+      "title": "EP16 롱폼 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "죄책감 종합 EP16. EP00~16 완결. 파일: 유튜브/EP16_촬영초간편",
+      "advice": "EP16이 마지막. 완결 의식.",
+      "checklist": [
+        { "text": "EP16 촬영+업로드", "done": false },
+        { "text": "EP15 업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-007",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "title": "Bodypart Tracker v1 GitHub Release",
+      "category": "프로젝트",
+      "color": "teal",
+      "notes": "릴리스 노트+태그+스크린샷 업로드. 파일: bodypart-tracker/RELEASE_PREP_2026-05-20.md",
+      "advice": "스크린샷은 미리 찍었으면 바로 진행.",
+      "checklist": [
+        { "text": "릴리스 노트 작성", "done": false },
+        { "text": "v1 태그", "done": false },
+        { "text": "스크린샷 첨부", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-008",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "title": "N2 일본어 — Day 5~6",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Anki 리뷰+한자 스캔+섀도잉. 파일: 일본어/Day2to7_가이드",
+      "advice": null,
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "한자+섀도잉", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-009",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "저녁", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-010",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 첫 주 화요일. EP14~16 롱폼+쇼츠 완결 + Tracker v1 Release + N2 Day 5~6."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-20T23:50:00+09:00",
+  "blocks": [
+    {
+      "id": "w1-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "기상", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "아침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-003",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "title": "EP17 촬영+편집+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "새 시리즈 첫 편. 어제 기획+대사 기반.",
+      "advice": "새 시리즈 첫 업로드. 후킹 중요.",
+      "checklist": [
+        { "text": "EP17 촬영", "done": false },
+        { "text": "편집", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-004",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "title": "EP18 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "새 시리즈 2편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP18 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-005",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "점심", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-006",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "N2 일본어 — Day 10",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Phase 2 정착. 독해+청해+문법+Anki. 파일: 일본어/Day8to14_가이드",
+      "advice": null,
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "독해+청해", "done": false },
+        { "text": "문법", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-007",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "주간 회고",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험 후 첫 주 회고. YouTube 16편+신규 2편 총평+N2 진행+Tracker 릴리스.",
+      "advice": "다음 주 계획까지.",
+      "checklist": [
+        { "text": "주간 회고 작성", "done": false },
+        { "text": "다음 주 계획", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-008",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "운동", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-009",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "저녁", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-010",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 첫 주 금요일. EP17~18 새 시리즈 첫 촬영 + N2 Day 10 + 주간 회고."
+  }
+}

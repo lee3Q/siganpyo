@@ -1,0 +1,164 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-20T23:50:00+09:00",
+  "blocks": [
+    {
+      "id": "w1-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "기상", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "아침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-003",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 일본어 — Day 7 주간 회고",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "첫 주 회고+Anki 정리+약점 파악. 파일: 일본어/Day2to7_가이드 (Day 7 회고 섹션)",
+      "advice": "회고 6문항 작성. 솔직하게.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "주간 회고 작성", "done": false },
+        { "text": "약점 파악", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "점심", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-005",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "LinkedIn 포스트 작성",
+      "category": "프로젝트",
+      "color": "teal",
+      "notes": "Bodypart Tracker 오픈소스 공개 포스트. 파일: bodypart-tracker/RELEASE_PREP_2026-05-20.md",
+      "advice": "간단하게. 개발 스토리+링크.",
+      "checklist": [
+        { "text": "포스트 초안", "done": false },
+        { "text": "게시", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-006",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "YouTube 채널 분석 확인",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "EP00~16 업로드 후 조회수·시청시간·구독자 체크. YouTube Studio.",
+      "advice": "데이터만 확인. 과도한 최적화 금지.",
+      "checklist": [
+        { "text": "Studio 분석 확인", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-007",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "운동", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "저녁", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-009",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "자유 시간",
+      "category": "루틴",
+      "color": "green",
+      "notes": "쉬는 날. 만화·게임·아무것도 안 함.",
+      "advice": "쉬어도 됨.",
+      "checklist": [
+        { "text": "휴식", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w1-010",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 첫 주 수요일. N2 Day 7 주간 회고 + Tracker LinkedIn 포스트 + 쉬는 날."
+  }
+}
