@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-061",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-062",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 58 — 주간 회고",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Phase 3 Week 1 회고. 모의테스트 1·2 비교. 약점 추이. Anki 누적. 남은 15일 계획.",
+      "advice": "회고=다음 주 방향 결정. 솔직하게.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "Week 4 회고", "done": false },
+        { "text": "남은 15일 계획", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-063",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-064",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 — 주간 정리",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "이번 주 개발 진행 정리. 다음 주 마일스톤 설정.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 주간 정리", "done": false },
+        { "text": "다음 주 마일스톤", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-065",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-066",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-067",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 토요일. N2 Day 58 (Phase 3 Week 1 회고) + 시간표 v0.2 주간 정리."
+  }
+}

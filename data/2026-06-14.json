@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-002",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Phase 3 Day 52 — 실전 모의테스트 1",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Phase 3 진입. 종합 모의테스트(언어지식+독해+청해). 시간 측정. 오답 분석.",
+      "advice": "Phase 3=실전 강화. 모의테스트로 약점 식별 후 집중.",
+      "checklist": [
+        { "text": "모의테스트 실시 (시간 측정)", "done": false },
+        { "text": "오답 분석", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-003",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-004",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "EP33 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 1편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP33 촬영", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-005",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "M3 마일스톤: AI 통합 기획 또는 UX 개선.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 기획 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-006",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-007",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 일요일. N2 Phase 3 Day 52 (실전 모의테스트 1) + EP33 + 시간표 v0.2 개발 시작."
+  }
+}

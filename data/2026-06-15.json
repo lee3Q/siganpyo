@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-011",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-012",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "Anki 리뷰",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "누적 복습. FSRS due 카드.",
+      "advice": null,
+      "checklist": [{ "text": "Anki 리뷰", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-013",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 53 — 독해 속도 훈련",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "모의테스트 오답 기반 독해 집중. 장문 독해 3~4문제 시간 측정. 지문 유형별 전략.",
+      "advice": "시간 부족이 주요 사망 원인. 속도 훈련 핵심.",
+      "checklist": [
+        { "text": "독해 3~4문제 시간 측정", "done": false },
+        { "text": "오답 분석", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-014",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-015",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "M3 AI 통합 또는 UX 개선.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 개발 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-016",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-017",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-018",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "N2 청해 섀도잉",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "저녁 가벼운 청해. 섀도잉 15분.",
+      "advice": null,
+      "checklist": [{ "text": "섀도잉 15분", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-019",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 월요일. N2 Day 53 (독해 속도 훈련) + 시간표 v0.2 + 운동."
+  }
+}

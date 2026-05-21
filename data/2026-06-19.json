@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-051",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-052",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "Anki 리뷰",
+      "category": "일본어",
+      "color": "purple",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "Anki 리뷰", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-053",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 57 — 약점 집중 (모의테스트 오답)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "모의테스트 1·2 오답에서 반복되는 약점 유형 집중 공략.",
+      "advice": "같은 유형 반복 오답=개념 오해. 확실히 정리.",
+      "checklist": [
+        { "text": "약점 유형 식별", "done": false },
+        { "text": "집중 학습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-054",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-055",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "EP35 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 1편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP35 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-056",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 개발 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-057",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-058",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 금요일. N2 Day 57 (약점 집중) + EP35 + 시간표 v0.2."
+  }
+}

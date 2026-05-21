@@ -1,0 +1,108 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-041",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-042",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "Anki 리뷰",
+      "category": "일본어",
+      "color": "purple",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "Anki 리뷰", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-043",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Day 56 — 실전 모의테스트 2",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "2차 종합 모의테스트. 1차 대비 개선 점 확인. 시간 배분 재검토.",
+      "advice": "1차 오답 영역 집중. 점수 변화 추이 기록.",
+      "checklist": [
+        { "text": "모의테스트 실시", "done": false },
+        { "text": "오답 분석", "done": false },
+        { "text": "1차 대비 비교", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-044",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-045",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 개발 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-046",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-047",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 목요일. N2 Day 56 (실전 모의테스트 2) + 시간표 v0.2."
+  }
+}

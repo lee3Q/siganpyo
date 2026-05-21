@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-031",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-032",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "Anki 리뷰",
+      "category": "일본어",
+      "color": "purple",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "Anki 리뷰", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-033",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 55 — 문법 종합 정리",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 문법 항목 총정리. 자주 틀리는 문법 패턴 집중. 비슷한 문법 구분 연습.",
+      "advice": "문법=암기로 단기 점수 상승 가능.",
+      "checklist": [
+        { "text": "문법 종합 정리", "done": false },
+        { "text": "혼동 문법 구분 연습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-034",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-035",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 개발 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-036",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-037",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-038",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "파악 세션 또는 자기 분석",
+      "category": "성찰",
+      "color": "pink",
+      "notes": "행동 기반 사고실험. 내재적 가치 발견.",
+      "advice": null,
+      "checklist": [{ "text": "파악 또는 분석", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-039",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 수요일. N2 Day 55 (문법 종합) + 시간표 v0.2 + 파악."
+  }
+}

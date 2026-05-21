@@ -1,0 +1,123 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w4-021",
+      "startTime": "08:00",
+      "endTime": "08:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-022",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "Anki 리뷰",
+      "category": "일본어",
+      "color": "purple",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "Anki 리뷰", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-023",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 54 — 청해 집중",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "청해 N2 기출. 딕테이션+섀도잉. 들으면서 메모 연습.",
+      "advice": "청해=단기 집중으로 점수 올리기 가장 좋은 영역.",
+      "checklist": [
+        { "text": "청해 기출 2세트", "done": false },
+        { "text": "딕테이션", "done": false },
+        { "text": "섀도잉", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-024",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-025",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "EP34 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 1편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP34 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-026",
+      "startTime": "15:30",
+      "endTime": "17:00",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": null,
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 개발 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-027",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w4-028",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 넷째 주 화요일. N2 Day 54 (청해 집중) + EP34 + 시간표 v0.2."
+  }
+}
