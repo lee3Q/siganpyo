@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-05-21T23:30:00+09:00",
+  "blocks": [
+    {
+      "id": "w6-049",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험 전날. 평소처럼 기상. 컨디션 조절.",
+      "advice": "무리한 기상 시간 변경 금지. 평소 루틴 유지.",
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-050",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 D-1 — 최종 복습",
+      "category": "일본어",
+      "color": "red",
+      "notes": "새로운 문제 풀지 않음. 기존 오답·포켓카드·Anki 위주 복습. 자신감 복원.",
+      "advice": "D-1은 새 거 안 함. 아는 것 확실히 굳히기.",
+      "checklist": [
+        { "text": "오답 노트 전체 복습", "done": false },
+        { "text": "포켓카드 전체 복습", "done": false },
+        { "text": "Anki 최종 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-051",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-052",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "가벼운 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": "무리한 운동 금지. 가볍게 걷기. 머리 식히기.",
+      "advice": null,
+      "checklist": [{ "text": "가벼운 산책", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-053",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "시험 준비물 확인",
+      "category": "루틴",
+      "color": "green",
+      "notes": "수험표, 신분증, 필기구, 시계. 가방에 미리 챙기기.",
+      "advice": null,
+      "checklist": [
+        { "text": "수험표 확인", "done": false },
+        { "text": "신분증 확인", "done": false },
+        { "text": "필기구 준비", "done": false },
+        { "text": "시계 준비", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-054",
+      "startTime": "18:00",
+      "endTime": "19:00",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-055",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "포켓카드 가볍게 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "가볍게만. 깊이 파지 않기. 자신감 갖기.",
+      "advice": "여기서 그만. 더 하면 머리만 아프다.",
+      "checklist": [
+        { "text": "포켓카드 가볍게 복습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-056",
+      "startTime": "21:30",
+      "endTime": "22:00",
+      "title": "취침 준비",
+      "category": "루틴",
+      "color": "green",
+      "notes": "평소보다 일찍. 내일 컨디션이 최우선.",
+      "advice": "D-1 밤=일찍 자는 게 최고의 공부.",
+      "checklist": [
+        { "text": "내일 옷 준비", "done": false },
+        { "text": "알람 확인", "done": false },
+        { "text": "일찍 취침", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

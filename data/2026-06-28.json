@@ -1,0 +1,120 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-05-21T23:30:00+09:00",
+  "blocks": [
+    {
+      "id": "w6-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-002",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 D-7 — 독해 집중",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "독해 파트 집중. 긴 지문 3개 분석 + 문제 풀이. 시간 측정 필수.",
+      "advice": "D-7은 독해에 시간 투자. 정확도보다 속도 감 잡기.",
+      "checklist": [
+        { "text": "독해 지문 3개 분석", "done": false },
+        { "text": "시간 측정 풀이", "done": false },
+        { "text": "오답 원인 정리", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-003",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-004",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "Anki 복습 + 단어 추가",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "오늘 독해에서 나온 모르는 단어 Anki 추가. 기존 카드 리뷰.",
+      "advice": null,
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "새 단어 추가", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-005",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-006",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-007",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "title": "N2 독해 심화 + 오답 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "오전 독해 오답 재풀이. 비슷한 유형 추가 연습.",
+      "advice": null,
+      "checklist": [
+        { "text": "오답 재풀이", "done": false },
+        { "text": "유사 유형 연습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-008",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 복습량 체크", "done": false }, { "text": "내일 계획 확인", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

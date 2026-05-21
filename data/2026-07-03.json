@@ -1,0 +1,122 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-05-21T23:30:00+09:00",
+  "blocks": [
+    {
+      "id": "w6-041",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-042",
+      "startTime": "10:00",
+      "endTime": "12:30",
+      "title": "N2 D-2 — 종합 모의테스트 2",
+      "category": "일본어",
+      "color": "red",
+      "notes": "최종 실전 모의테스트. 모의테스트 1과 다른 문제 세트. 시간 엄수.",
+      "advice": "마지막 모의테스트. 실전처럼. 결과로 최종 약점 확인.",
+      "checklist": [
+        { "text": "문자·어휘+문법 (시간 측정)", "done": false },
+        { "text": "독해 (시간 측정)", "done": false },
+        { "text": "청해 (시간 측정)", "done": false },
+        { "text": "채점", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-043",
+      "startTime": "12:30",
+      "endTime": "13:30",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-044",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "title": "모의테스트 2 오답 분석",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "모의테스트 2 오답 분석. 모의테스트 1과 비교. 개선된 점, 남은 약점.",
+      "advice": "모의테스트 1 vs 2 비교 = 최종 약점 지도.",
+      "checklist": [
+        { "text": "오답 원인 분석", "done": false },
+        { "text": "모의테스트 1 vs 2 비교", "done": false },
+        { "text": "최종 약점 정리", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-045",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-046",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-047",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "오답 복습 + Anki",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "모의테스트 2 오답 재풀이. Anki 최종 리뷰.",
+      "advice": null,
+      "checklist": [
+        { "text": "오답 재풀이", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-048",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 복습량 체크", "done": false }, { "text": "내일 D-1 계획 확인", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

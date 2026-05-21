@@ -1,0 +1,120 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-05-21T23:30:00+09:00",
+  "blocks": [
+    {
+      "id": "w6-017",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-018",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 D-5 — 문법 정리",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 문법 항목 전체 정리. 자주 틀리는 조사·접속 정리. 문법 포켓카드 작성.",
+      "advice": "문법은 출제 빈도 순으로. 전부 외우려 하지 말고 핵심부터.",
+      "checklist": [
+        { "text": "N2 문법 항목 정리", "done": false },
+        { "text": "자주 틀리는 패턴 표시", "done": false },
+        { "text": "문법 포켓카드 작성", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-019",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-020",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "title": "N2 청해 심화",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "청해 파트 심화. 틀린 유형 반복 듣기. 속도 적응 훈련.",
+      "advice": null,
+      "checklist": [
+        { "text": "청해 심화 연습", "done": false },
+        { "text": "오답 유형 반복 듣기", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-021",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-022",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-023",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "문법 포켓카드 복습 + Anki",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "오전 작성한 문법 포켓카드 복습. Anki 리뷰.",
+      "advice": null,
+      "checklist": [
+        { "text": "포켓카드 복습", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-024",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 복습량 체크", "done": false }, { "text": "내일 계획 확인", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

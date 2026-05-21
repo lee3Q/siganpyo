@@ -1,0 +1,119 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-05-21T23:30:00+09:00",
+  "blocks": [
+    {
+      "id": "w6-033",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-034",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 D-3 — 약점 집중",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "모의테스트 1에서 드러난 약점 파트 집중 공략. 약점이 독해면 독해, 청해면 청해.",
+      "advice": "약점에 올인. 잘하는 거는 가볍게만 복습.",
+      "checklist": [
+        { "text": "약점 파트 집중 연습", "done": false },
+        { "text": "오답 패턴 정리", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-035",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-036",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "Anki 집중 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "누적 Anki 카드 정리. due 카드 전부 소화. 약한 카드 재학습.",
+      "advice": null,
+      "checklist": [
+        { "text": "Anki due 전부 소화", "done": false },
+        { "text": "약한 카드 재학습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-037",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-038",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-039",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "title": "약점 파트 2차 집중 + 포켓카드 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "오전 약점 집중 보강. 문법/어휘 포켓카드 전체 복습.",
+      "advice": null,
+      "checklist": [
+        { "text": "약점 보강", "done": false },
+        { "text": "포켓카드 복습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w6-040",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 복습량 체크", "done": false }, { "text": "내일 계획 확인", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}
