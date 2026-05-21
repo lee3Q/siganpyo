@@ -147,7 +147,7 @@
       "title": "시험 끝 — 해방",
       "category": "루틴",
       "color": "green",
-      "notes": "시험 생각 금지. \"끝났다.\"",
+      "notes": "시험 생각 금지. 끝났다.",
       "advice": "오늘부터 유튜브 인생 시작.",
       "checklist": [
         {
@@ -159,17 +159,89 @@
       "source": "ai"
     },
     {
+      "id": "d0-011",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심 + 귀가",
+      "category": "식사",
+      "color": "yellow",
+      "notes": "가볍게 먹고 집으로.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "점심",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-012",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "title": "휴식 — 아무것도 안 하기",
+      "category": "루틴",
+      "color": "green",
+      "notes": "시험 후 1시간은 완전 휴식. 폰만 봐도 됨.",
+      "advice": null,
+      "checklist": [
+        {
+          "text": "휴식",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
       "id": "d0-009",
       "startTime": "14:00",
-      "endTime": "15:00",
+      "endTime": "14:05",
       "title": "유튜브 채널 개설",
       "category": "유튜브",
       "color": "blue",
-      "notes": "채널개설_5분카드 참고. studio.youtube.com → 채널 만들기.",
-      "advice": "오늘은 채널만 만들면 됨.",
+      "notes": "런칭_플레인텍스트 파일 보면서 실행. 5분이면 끝.",
+      "advice": "채널명: 이상규. 카테고리: 교육.",
       "checklist": [
         {
           "text": "채널 개설 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-013",
+      "startTime": "14:05",
+      "endTime": "14:40",
+      "title": "EP01 촬영 (인간실격)",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "런칭_플레인텍스트 TAKE 1~5 읽으면서 촬영. 가장 자연스러운 것 선택.",
+      "advice": "폰 세로 9:16, 전면 카메라.",
+      "checklist": [
+        {
+          "text": "EP01 촬영 완료",
+          "done": false
+        }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "d0-014",
+      "startTime": "14:40",
+      "endTime": "15:00",
+      "title": "EP01 업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "런칭_플레인텍스트에서 제목·설명·태그 복붙.",
+      "advice": "공개 → 공개 선택.",
+      "checklist": [
+        {
+          "text": "EP01 업로드 완료",
           "done": false
         }
       ],
@@ -183,7 +255,7 @@
       "title": "자유 시간 — 완전 해방",
       "category": "루틴",
       "color": "green",
-      "notes": "아무것도 안 해도 됨. 축하.",
+      "notes": "EP01 올렸으면 충분. 나머지는 내일.",
       "advice": null,
       "checklist": [
         {
