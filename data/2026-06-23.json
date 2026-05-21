@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w5-017",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-018",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Day 61 — 독해 속도+정확도 밸런스",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "독해 기출 종합. 긴 지문 3개 시간 측정. 정확도 동시 추적.",
+      "advice": "빠르게 틀리면 의미 없다. 속도는 점차 올리기.",
+      "checklist": [
+        { "text": "장문 독해 3개 (시간 측정)", "done": false },
+        { "text": "정답률 기록", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-019",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-020",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "YouTube EP37 촬영 또는 편집",
+      "category": "유튜브",
+      "color": "red",
+      "notes": "EP37 분석 쇼츠.",
+      "advice": null,
+      "checklist": [
+        { "text": "대본 확인", "done": false },
+        { "text": "촬영", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-021",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "파악 또는 웹툰쇼츠",
+      "category": "프로젝트",
+      "color": "pink",
+      "notes": "파악 스킬 또는 웹툰쇼츠 진행. 상황에 따라 선택.",
+      "advice": null,
+      "checklist": [
+        { "text": "선택한 프로젝트 진행", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-022",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-023",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "N2 문법·어휘 집중",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 문법 기출. 혼동하기 쉬운 문법 패턴 정리.",
+      "advice": null,
+      "checklist": [
+        { "text": "문법 기출 10문제", "done": false },
+        { "text": "오답 노트", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-024",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 회고", "done": false }, { "text": "내일 계획", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

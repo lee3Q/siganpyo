@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w5-049",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-050",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 Day 65 — 주간 회고",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Phase 3 Week 2 회고. 모의테스트 1·2·3 추이 분석. 약점 변화. Anki 누적. 남은 8일(6/28~7/5) 최종 계획.",
+      "advice": "회고=Phase 4 방향 결정. 마지막 8일 집중 전략.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "Week 5 회고", "done": false },
+        { "text": "모의테스트 1·2·3 추이 분석", "done": false },
+        { "text": "남은 8일 계획 수립", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-051",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-052",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 — 주간 정리",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "이번 주 개발 진행 정리. 다음 주(마지막 주) 마일스톤 설정.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 주간 정리", "done": false },
+        { "text": "다음 주 마일스톤", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-053",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-054",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-055",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "N2 Phase 4 계획 수립",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "6/28~7/5 마지막 8일 계획. 약점 집중+모의테스트+컨디션 관리.",
+      "advice": "마지막 주=집중력. 무리하지 말고 효율적으로.",
+      "checklist": [
+        { "text": "Phase 4 계획 작성", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-056",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리 + 주간 회고",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "주간 회고", "done": false }, { "text": "다음 주 계획", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

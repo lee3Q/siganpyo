@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w5-041",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-042",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Day 64 — 종합 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "이번 주 오답 총정리. 모의테스트 3회 누적 약점 최종 확인. 내일 회고 준비.",
+      "advice": "모르는 건 솔직하게 표시. 아는 척 금지.",
+      "checklist": [
+        { "text": "Week 5 오답 총정리", "done": false },
+        { "text": "누적 약점 최종 확인", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-043",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-044",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "시간표 PWA v0.2 개발 — 주간 마감",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "v0.2 이번 주 마일스톤 마감. PR 또는 커밋 정리.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 주간 마감", "done": false },
+        { "text": "커밋 정리", "done": false },
+        { "text": "다음 주 계획", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-045",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "운동 또는 산책",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-046",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-047",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "N2 독해·청해 혼합 복습",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "기출 독해+청해 혼합. 시간 분배 연습.",
+      "advice": null,
+      "checklist": [
+        { "text": "독해 3문제", "done": false },
+        { "text": "청해 3문제", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-048",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 회고", "done": false }, { "text": "내일 회고 준비", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

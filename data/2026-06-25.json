@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w5-033",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-034",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Day 63 — 문법·어휘 집중 마무리",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 문법 빈출 패턴 총정리. 어휘 Anki 집중 리뷰. 모의테스트에서 반복 틀린 문법 유형 집중.",
+      "advice": "문법은 패턴 인식. '이런 맥락에서 이 형태' 암기.",
+      "checklist": [
+        { "text": "문법 빈출 패턴 정리", "done": false },
+        { "text": "어휘 Anki 집중", "done": false },
+        { "text": "오답 문법 복습", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-035",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-036",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "YouTube EP38 촬영 또는 편집",
+      "category": "유튜브",
+      "color": "red",
+      "notes": "EP38 분석 쇼츠.",
+      "advice": null,
+      "checklist": [
+        { "text": "대본 확인", "done": false },
+        { "text": "촬영", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-037",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "v0.2 마일스톤 진행.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 태스크 진행", "done": false },
+        { "text": "빌드 테스트", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-038",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-039",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "N2 청해 섀도잉 심화",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "섀도잉 30분 집중. 틀리는 구간 반복.",
+      "advice": null,
+      "checklist": [
+        { "text": "섀도잉 30분", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-040",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 회고", "done": false }, { "text": "내일 계획", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}

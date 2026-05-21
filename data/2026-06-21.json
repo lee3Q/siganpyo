@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-05-21T22:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w5-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상 + 아침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }, { "text": "아침 식사", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-002",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 Day 59 — 모의테스트 오답 집중 분석",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Week 4 모의테스트 1·2 오답 비교. 반복 틀린 유형 식별. 약점 3개 집중 공략 계획.",
+      "advice": "반복 오답=진짜 약점. 1개라도 확실히 잡기.",
+      "checklist": [
+        { "text": "오답 비교 분석", "done": false },
+        { "text": "약점 3개 식별", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-003",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-004",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "YouTube EP36 촬영 또는 편집",
+      "category": "유튜브",
+      "color": "red",
+      "notes": "EP36 분석 쇼츠. 대본 확인 후 촬영.",
+      "advice": null,
+      "checklist": [
+        { "text": "대본 확인", "done": false },
+        { "text": "촬영", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-005",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "title": "시간표 PWA v0.2 개발",
+      "category": "개발",
+      "color": "cyan",
+      "notes": "v0.2 마일스톤 진행. 기획서(~/시간표/PRD.md) 참조.",
+      "advice": null,
+      "checklist": [
+        { "text": "v0.2 태스크 진행", "done": false },
+        { "text": "커밋", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-006",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-007",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "title": "N2 약점 집중 — 독해/청해/문법 중 1",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "오전 식별한 약점 1개 집중. 기출 문제 풀이.",
+      "advice": "양보다 질. 하나라도 정확히.",
+      "checklist": [
+        { "text": "약점 집중 학습", "done": false },
+        { "text": "Anki 리뷰", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w5-008",
+      "startTime": "22:00",
+      "endTime": "22:15",
+      "title": "하루 마무리 + 내일 계획",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "오늘 회고", "done": false }, { "text": "내일 계획", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ]
+}
