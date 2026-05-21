@@ -1,0 +1,137 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w3-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-003",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 일본어 — Day 47 (문법 종합 정리)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 문법 전 범위 복습. 해커스 Ch1~8 중 취약 문법 집중. 오답 노트 활용.",
+      "advice": "문법은 출제 패턴 파악이 핵심.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "문법 취약 Ch 복습", "done": false },
+        { "text": "오답 노트 갱신", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-005",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "Bodypart Tracker v1.1 개선",
+      "category": "개발",
+      "color": "teal",
+      "notes": "오픈소스 릴리스 후 첫 개선. 이슈 트래커 확인+버그픽스.",
+      "advice": null,
+      "checklist": [
+        { "text": "GitHub 이슈 확인", "done": false },
+        { "text": "개선 1건 구현", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-006",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "EP28 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 1편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP28 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-007",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-009",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 셋째 주 화요일. N2 Day 47(문법 종합) + Tracker 개선 + EP28."
+  }
+}

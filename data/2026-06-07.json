@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w3-001",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-002",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-003",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "title": "N2 일본어 — Day 45 (독해 기출 심화)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Phase 2 말기. N2 기출 독해 속도 훈련. 지문 3개+문제 풀이+오답 분석. 시간 압박 연습(지문당 4분).",
+      "advice": "독해 속도=합격 변수. 시간재면서 풀기.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "독해 기출 3지문", "done": false },
+        { "text": "오답 분석", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-005",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "EP26 촬영+편집+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "분석 채널 지속. 기획안+대사 기반.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP26 촬영", "done": false },
+        { "text": "편집", "done": false },
+        { "text": "업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-006",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "title": "Sentence mining 5문장",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "독해에서 발췌. Claude → Anki.",
+      "advice": null,
+      "checklist": [{ "text": "mining 5문장", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-007",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-009",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "title": "웹툰쇼츠 소재 1개 작업",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "인스타 게시용. 대본→스토리보드→제작.",
+      "advice": null,
+      "checklist": [{ "text": "웹툰쇼츠 1개", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-010",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 셋째 주 일요일. N2 Day 45(독해 심화) + EP26 + 웹툰쇼츠."
+  }
+}

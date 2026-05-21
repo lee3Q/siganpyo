@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w3-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-003",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "title": "N2 일본어 — Day 50 (마일스톤: 중간 점검)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Day 50 마일스톤. 전체 진도 점검(한자·어휘·문법·독해·청해). 강점/약점 재평가. 남은 22일 계획 수정.",
+      "advice": "70% 완료 지점. 궤도 수정 기회.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "전체 진도 점검", "done": false },
+        { "text": "남은 22일 계획 수정", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-005",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "title": "EP31 촬영+편집+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "새 시리즈 또는 분석 심화.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP31 촬영", "done": false },
+        { "text": "편집+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-006",
+      "startTime": "16:00",
+      "endTime": "16:30",
+      "title": "Sentence mining 5문장",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "Anki 누적 관리. 700장 목표.",
+      "advice": null,
+      "checklist": [{ "text": "mining 5문장", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-007",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-009",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 셋째 주 금요일. N2 Day 50 마일스톤(중간 점검) + EP31."
+  }
+}

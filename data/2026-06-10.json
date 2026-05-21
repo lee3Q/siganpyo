@@ -1,0 +1,137 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-05-21T16:00:00+09:00",
+  "blocks": [
+    {
+      "id": "w3-001",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "title": "기상",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "기상", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-002",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "title": "아침 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "아침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-003",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "title": "N2 일본어 — Day 48 (종합 모의테스트 1)",
+      "category": "일본어",
+      "color": "purple",
+      "notes": "N2 모의테스트. 문자·어휘+문법+독해+청해 전 영역. 시간 측정(105분). 채점+오답 분석.",
+      "advice": "Phase 3 진입 진단. 현재 수준 객관 파악.",
+      "checklist": [
+        { "text": "Anki 리뷰", "done": false },
+        { "text": "모의테스트 풀이", "done": false },
+        { "text": "채점+오답 분석", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-004",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "title": "점심",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "점심", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-005",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "title": "시간표 PWA v0.2 기획",
+      "category": "개발",
+      "color": "teal",
+      "notes": "AI 통합(M3) 기획. Claude API 연동 방식+비용+프라이버시 검토.",
+      "advice": null,
+      "checklist": [
+        { "text": "M3 스펙 초안", "done": false },
+        { "text": "API 비용 추정", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-006",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "title": "EP29 촬영+업로드",
+      "category": "유튜브",
+      "color": "blue",
+      "notes": "쇼츠 1편.",
+      "advice": null,
+      "checklist": [
+        { "text": "EP29 촬영+업로드", "done": false }
+      ],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-007",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "title": "산책 또는 가벼운 운동",
+      "category": "운동",
+      "color": "orange",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "운동", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-008",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "title": "저녁 식사",
+      "category": "식사",
+      "color": "yellow",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "저녁", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    },
+    {
+      "id": "w3-009",
+      "startTime": "23:00",
+      "endTime": "23:30",
+      "title": "취침",
+      "category": "루틴",
+      "color": "green",
+      "notes": null,
+      "advice": null,
+      "checklist": [{ "text": "취침", "done": false }],
+      "status": "planned",
+      "source": "ai"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "source": "claude",
+    "note": "시험 후 셋째 주 수요일. N2 Day 48(종합 모의테스트 1) + 시간표 v0.2 기획 + EP29."
+  }
+}
